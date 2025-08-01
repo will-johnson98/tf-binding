@@ -75,3 +75,8 @@ To run inference with your finetuned models:
 
 
    This will output a parquet file in `data/processed_results` which we can use for downstream analysis (some example scripts can be found in `src/inference/analysis`)
+
+
+
+
+# to add new cell lines to training

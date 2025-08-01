@@ -31,5 +31,6 @@
     "FOX-Contrasting": "s3://tf-binding-sites/finetuning/results/output/FOXA1-FOXA2-Contrasting-2025-05-04-14-12-18-192/output/model.tar.gz",
     "FOX-Contrasting-A549": "s3://tf-binding-sites/finetuning/results/output/FOXA1-FOXA2-Contrasting-2025-05-13-22-28-54-976/output/model.tar.gz",
     "FOXA2-FOXM1-Contrasting": "s3://tf-binding-sites/finetuning/results/output/FOXA2-FOXM1-Contrasting-2025-05-28-03-33-02-599/output/model.tar.gz",
-    "AR-NR3C1-Contrasting": "s3://tf-binding-sites/finetuning/results/output/AR-NR3C1-Contrasting-2025-05-27-04-23-06-104/output/model.tar.gz"
+    "AR-NR3C1-Contrasting": "s3://tf-binding-sites/finetuning/results/output/AR-NR3C1-Contrasting-2025-05-27-04-23-06-104/output/model.tar.gz",
+    "AR-PC3": "s3://tf-binding-sites/finetuning/results/output/AR-PC-3-NO-FLIP-2025-07-28-19-33-11-416/output/model.tar.gz"
 }
