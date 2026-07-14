@@ -1,0 +1,7 @@
+# TF<TAB>CELL_LINE  -- cell line spelled as in the attrs parquet.
+# Regenerate with utils/find_samples.sh <TF> (parquet inter merged-BED).
+AR	22Rv1
+AR	A-375
+AR	C4-2
+AR	LNCAP
+AR	VCAP

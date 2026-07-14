@@ -10,6 +10,7 @@
     "A-673": "A673",
     "AGS": "AGS",
     "BT-549": "BT-549",
+    "BE(2)-C": "BE2-C",
     "BEAS-2B": "BEAS-2B",
     "BJ": "BJ",
     "BJ_hTERT": "BJ_hTERT",
@@ -47,10 +48,10 @@
     "HL-60": "HL-60",
     "HMEC": "HMEC",
     "HT1376": "HT-1376",
-    "HT29": "HT29",
     "HT-29": "HT-29",
     "HUH-7": "HuH-7",
     "HUVEC": "HUVEC",
+    "IMR-32": "IMR-32",
     "IMR-90": "IMR-90",
     "ISHIKAWA": "Ishikawa",
     "JURKAT": "JURKAT",
@@ -150,5 +151,13 @@
     "CACO-2": "CACO-2",
     "JHH-7": "JHH-7",
     "KER-CT": "KER-CT",
-    "LOVO": "LOVO"
+    "LOVO": "LOVO",
+    "LuCaP-49": "LuCaP-49",
+    "LuCaP-93": "LuCaP-93",
+    "LuCaP-145.1": "LuCaP-145.1",
+    "LuCaP-77": "LuCaP-77",
+    "LuCaP-77CR": "LuCaP-77CR",
+    "LuCaP-78": "LuCaP-78",
+    "LuCaP-81": "LuCaP-81"
+
 }

@@ -105,7 +105,7 @@ def main():
     config = {
         "project_path": "/data1/datasets_1/human_cistrome/chip-atlas/peak_calls/tfbinding_scripts/tf-binding",
         "model": "AR", 
-        "sample": "DTB-036-A"
+        "sample": "DTB-265-PRO-B"
     }
     
     success = process_and_save_results(**config)

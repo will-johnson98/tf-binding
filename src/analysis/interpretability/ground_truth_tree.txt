@@ -1,0 +1,1798 @@
+.
+├── AR
+│   ├── aggregate.tsv
+│   ├── filtered_output.tsv
+│   ├── merged
+│   │   ├── 22RV1_AR_merged.bed
+│   │   ├── 293_AR_merged.bed
+│   │   ├── 42D_AR_merged.bed
+│   │   ├── A-375_AR_merged.bed
+│   │   ├── A549_AR_merged.bed
+│   │   ├── C4-2_AR_merged.bed
+│   │   ├── C4-2B_AR_merged.bed
+│   │   ├── CWR22PC_AR_merged.bed
+│   │   ├── CWR-R1_AR_merged.bed
+│   │   ├── DU145_AR_merged.bed
+│   │   ├── HEC-50B_AR_merged.bed
+│   │   ├── HGC-27_AR_merged.bed
+│   │   ├── JN-DSRCT-1_AR_merged.bed
+│   │   ├── KYSE-410_AR_merged.bed
+│   │   ├── LAPC-4_AR_merged.bed
+│   │   ├── LHSAR_AR_merged.bed
+│   │   ├── LNCAP_AR_merged.bed
+│   │   ├── MCF-7_AR_merged.bed
+│   │   ├── MDA-MB-453_AR_merged.bed
+│   │   ├── MFM-223_AR_merged.bed
+│   │   ├── NCI-H1437_AR_merged.bed
+│   │   ├── NCI-H2126_AR_merged.bed
+│   │   ├── PC-3_AR_merged.bed
+│   │   ├── R1-AD1_AR_merged.bed
+│   │   ├── R1-D567_AR_merged.bed
+│   │   ├── T-47D_AR_merged.bed
+│   │   ├── THP-1_AR_merged.bed
+│   │   ├── UM-UC-3_AR_merged.bed
+│   │   └── VCAP_AR_merged.bed
+│   ├── output.tsv
+│   └── split
+│       ├── 22RV1_AR_filtered.bed
+│       ├── 293_AR_filtered.bed
+│       ├── 42D_AR_filtered.bed
+│       ├── A-375_AR_filtered.bed
+│       ├── A549_AR_filtered.bed
+│       ├── C4-2_AR_filtered.bed
+│       ├── C4-2B_AR_filtered.bed
+│       ├── CWR22PC_AR_filtered.bed
+│       ├── CWR-R1_AR_filtered.bed
+│       ├── DU145_AR_filtered.bed
+│       ├── HEC-50B_AR_filtered.bed
+│       ├── HGC-27_AR_filtered.bed
+│       ├── JN-DSRCT-1_AR_filtered.bed
+│       ├── KYSE-410_AR_filtered.bed
+│       ├── LAPC-4_AR_filtered.bed
+│       ├── LHSAR_AR_filtered.bed
+│       ├── LNCAP_AR_filtered.bed
+│       ├── MCF-7_AR_filtered.bed
+│       ├── MDA-MB-453_AR_filtered.bed
+│       ├── MFM-223_AR_filtered.bed
+│       ├── NCI-H1437_AR_filtered.bed
+│       ├── NCI-H2126_AR_filtered.bed
+│       ├── PC-3_AR_filtered.bed
+│       ├── R1-AD1_AR_filtered.bed
+│       ├── R1-D567_AR_filtered.bed
+│       ├── T-47D_AR_filtered.bed
+│       ├── THP-1_AR_filtered.bed
+│       ├── UM-UC-3_AR_filtered.bed
+│       └── VCAP_AR_filtered.bed
+├── ARNTL
+│   ├── aggregate.tsv
+│   ├── filtered_output.tsv
+│   ├── merged
+│   │   ├── HEP-G2_ARNTL_merged.bed
+│   │   ├── LNCAP_ARNTL_merged.bed
+│   │   ├── LOVO_ARNTL_merged.bed
+│   │   ├── MDA-MB-231_ARNTL_merged.bed
+│   │   ├── NOMO-1_ARNTL_merged.bed
+│   │   ├── SK-N-SH_ARNTL_merged.bed
+│   │   ├── THP-1_ARNTL_merged.bed
+│   │   └── U2OS_ARNTL_merged.bed
+│   ├── output.tsv
+│   └── split
+│       ├── HEP-G2_ARNTL_filtered.bed
+│       ├── LNCAP_ARNTL_filtered.bed
+│       ├── LOVO_ARNTL_filtered.bed
+│       ├── MDA-MB-231_ARNTL_filtered.bed
+│       ├── NOMO-1_ARNTL_filtered.bed
+│       ├── SK-N-SH_ARNTL_filtered.bed
+│       ├── THP-1_ARNTL_filtered.bed
+│       └── U2OS_ARNTL_filtered.bed
+├── ASCL1
+│   ├── aggregate.tsv
+│   ├── filtered_output.tsv
+│   ├── merged
+│   │   ├── 42D-ENZR_ASCL1_merged.bed
+│   │   ├── BE(2)-C_ASCL1_merged.bed
+│   │   ├── DMS53_ASCL1_merged.bed
+│   │   ├── IMR-32_ASCL1_merged.bed
+│   │   ├── KELLY_ASCL1_merged.bed
+│   │   ├── LuCaP-145.1_ASCL1_merged.bed
+│   │   ├── LuCaP-49_ASCL1_merged.bed
+│   │   ├── LuCaP-93_ASCL1_merged.bed
+│   │   ├── NCI-H128_ASCL1_merged.bed
+│   │   ├── NCI-H1963_ASCL1_merged.bed
+│   │   ├── NCI-H2107_ASCL1_merged.bed
+│   │   ├── NCI-H660_ASCL1_merged.bed
+│   │   ├── NCI-H889_ASCL1_merged.bed
+│   │   └── SH-SY5Y_ASCL1_merged.bed
+│   ├── output.tsv
+│   └── split
+│       ├── 42D-ENZR_ASCL1_filtered.bed
+│       ├── BE(2)-C_ASCL1_filtered.bed
+│       ├── DMS53_ASCL1_filtered.bed
+│       ├── IMR-32_ASCL1_filtered.bed
+│       ├── KELLY_ASCL1_filtered.bed
+│       ├── LuCaP-145.1_ASCL1_filtered.bed
+│       ├── LuCaP-49_ASCL1_filtered.bed
+│       ├── LuCaP-93_ASCL1_filtered.bed
+│       ├── NCI-H128_ASCL1_filtered.bed
+│       ├── NCI-H1963_ASCL1_filtered.bed
+│       ├── NCI-H2107_ASCL1_filtered.bed
+│       ├── NCI-H660_ASCL1_filtered.bed
+│       ├── NCI-H889_ASCL1_filtered.bed
+│       └── SH-SY5Y_ASCL1_filtered.bed
+├── CTCF
+│   ├── aggregate.tsv
+│   ├── filtered_output.tsv
+│   ├── merged
+│   │   ├── 22RV1_CTCF_merged.bed
+│   │   ├── 22Rv1_intersect_ATAC_CTCF_ft_broadPeak
+│   │   ├── 293_CTCF_merged.bed
+│   │   ├── 5637_CTCF_merged.bed
+│   │   ├── 697_CTCF_merged.bed
+│   │   ├── 786-O_CTCF_merged.bed
+│   │   ├── 93-VU147T_CTCF_merged.bed
+│   │   ├── A2780_CTCF_merged.bed
+│   │   ├── A-375_CTCF_merged.bed
+│   │   ├── A549_CTCF_merged.bed
+│   │   ├── A-673_CTCF_merged.bed
+│   │   ├── AC7_CTCF_merged.bed
+│   │   ├── AG04449_CTCF_merged.bed
+│   │   ├── AG04450_CTCF_merged.bed
+│   │   ├── AG09309_CTCF_merged.bed
+│   │   ├── AG09319_CTCF_merged.bed
+│   │   ├── AG10803_CTCF_merged.bed
+│   │   ├── AOAF_CTCF_merged.bed
+│   │   ├── BC-3_CTCF_merged.bed
+│   │   ├── BCBL1_CTCF_merged.bed
+│   │   ├── BE(2)-C_CTCF_merged.bed
+│   │   ├── BEAS-2B_CTCF_merged.bed
+│   │   ├── BJ_CTCF_merged.bed
+│   │   ├── BLAER1_CTCF_merged.bed
+│   │   ├── C4-2_CTCF_merged.bed
+│   │   ├── CACO-2_CTCF_merged.bed
+│   │   ├── CALU-3_CTCF_merged.bed
+│   │   ├── CAOV-3_CTCF_merged.bed
+│   │   ├── CD20+_CTCF_merged.bed
+│   │   ├── CHRF-288-11_CTCF_merged.bed
+│   │   ├── CUTLL1_CTCF_merged.bed
+│   │   ├── D54_CTCF_merged.bed
+│   │   ├── DELTA-47_CTCF_merged.bed
+│   │   ├── DKO_CTCF_merged.bed
+│   │   ├── DLD-1_CTCF_merged.bed
+│   │   ├── DND-41_CTCF_merged.bed
+│   │   ├── DOHH-2_CTCF_merged.bed
+│   │   ├── DOMBI23_CTCF_merged.bed
+│   │   ├── ECC-1_CTCF_merged.bed
+│   │   ├── EEC16_CTCF_merged.bed
+│   │   ├── EFO-27_CTCF_merged.bed
+│   │   ├── ENDOC-BETAH3_CTCF_merged.bed
+│   │   ├── EOL-1_CTCF_merged.bed
+│   │   ├── ES-2_CTCF_merged.bed
+│   │   ├── FADU_CTCF_merged.bed
+│   │   ├── FB0167P_CTCF_merged.bed
+│   │   ├── FB8470_CTCF_merged.bed
+│   │   ├── FT246_CTCF_merged.bed
+│   │   ├── FT282_CTCF_merged.bed
+│   │   ├── FT33_CTCF_merged.bed
+│   │   ├── FULVR_CTCF_merged.bed
+│   │   ├── GFTR230_CTCF_merged.bed
+│   │   ├── GM04604_CTCF_merged.bed
+│   │   ├── GM04648_CTCF_merged.bed
+│   │   ├── GM06077_CTCF_merged.bed
+│   │   ├── GM06990_CTCF_merged.bed
+│   │   ├── GM10248_CTCF_merged.bed
+│   │   ├── GM10266_CTCF_merged.bed
+│   │   ├── GM10847_CTCF_merged.bed
+│   │   ├── GM12801_CTCF_merged.bed
+│   │   ├── GM12864_CTCF_merged.bed
+│   │   ├── GM12865_CTCF_merged.bed
+│   │   ├── GM12866_CTCF_merged.bed
+│   │   ├── GM12867_CTCF_merged.bed
+│   │   ├── GM12868_CTCF_merged.bed
+│   │   ├── GM12869_CTCF_merged.bed
+│   │   ├── GM12870_CTCF_merged.bed
+│   │   ├── GM12871_CTCF_merged.bed
+│   │   ├── GM12872_CTCF_merged.bed
+│   │   ├── GM12873_CTCF_merged.bed
+│   │   ├── GM12874_CTCF_merged.bed
+│   │   ├── GM12875_CTCF_merged.bed
+│   │   ├── GM12878_CTCF_merged.bed
+│   │   ├── GM12891_CTCF_merged.bed
+│   │   ├── GM12892_CTCF_merged.bed
+│   │   ├── GM13976_CTCF_merged.bed
+│   │   ├── GM13977_CTCF_merged.bed
+│   │   ├── GM18505_CTCF_merged.bed
+│   │   ├── GM18526_CTCF_merged.bed
+│   │   ├── GM18951_CTCF_merged.bed
+│   │   ├── GM19099_CTCF_merged.bed
+│   │   ├── GM19193_CTCF_merged.bed
+│   │   ├── GM19238_CTCF_merged.bed
+│   │   ├── GM19239_CTCF_merged.bed
+│   │   ├── GM19240_CTCF_merged.bed
+│   │   ├── GM20000_CTCF_merged.bed
+│   │   ├── GP5D_CTCF_merged.bed
+│   │   ├── GSC23_CTCF_merged.bed
+│   │   ├── HAC_CTCF_merged.bed
+│   │   ├── HAP1_CTCF_merged.bed
+│   │   ├── HA-SP_CTCF_merged.bed
+│   │   ├── HBMEC_CTCF_merged.bed
+│   │   ├── HCFAA_CTCF_merged.bed
+│   │   ├── HCM_CTCF_merged.bed
+│   │   ├── HCPEPIC_CTCF_merged.bed
+│   │   ├── HEC-1-B_CTCF_merged.bed
+│   │   ├── HEEPIC_CTCF_merged.bed
+│   │   ├── HELA_CTCF_merged.bed
+│   │   ├── HEY_CTCF_merged.bed
+│   │   ├── HFFC6_CTCF_merged.bed
+│   │   ├── HFF_CTCF_merged.bed
+│   │   ├── HFF-MYC_CTCF_merged.bed
+│   │   ├── HL-60_CTCF_merged.bed
+│   │   ├── HMEC_CTCF_merged.bed
+│   │   ├── HMF_CTCF_merged.bed
+│   │   ├── HMS001_CTCF_merged.bed
+│   │   ├── HPAF_CTCF_merged.bed
+│   │   ├── HPB-ALL_CTCF_merged.bed
+│   │   ├── HPF_CTCF_merged.bed
+│   │   ├── HRE_CTCF_merged.bed
+│   │   ├── HRPEPIC_CTCF_merged.bed
+│   │   ├── HSMM_CTCF_merged.bed
+│   │   ├── HT-1080_CTCF_merged.bed
+│   │   ├── HUDEP-1_CTCF_merged.bed
+│   │   ├── HUDEP-2_CTCF_merged.bed
+│   │   ├── HUVEC_CTCF_merged.bed
+│   │   ├── HVMF_CTCF_merged.bed
+│   │   ├── IMR-5_CTCF_merged.bed
+│   │   ├── IMR-90_CTCF_merged.bed
+│   │   ├── IOSE11_CTCF_merged.bed
+│   │   ├── IOSE4_CTCF_merged.bed
+│   │   ├── ISLK_CTCF_merged.bed
+│   │   ├── JHOC-5_CTCF_merged.bed
+│   │   ├── JURKAT_CTCF_merged.bed
+│   │   ├── K-562_CTCF_merged.bed
+│   │   ├── KASUMI-1_CTCF_merged.bed
+│   │   ├── KELLY_CTCF_merged.bed
+│   │   ├── KMS-11_CTCF_merged.bed
+│   │   ├── KU812_CTCF_merged.bed
+│   │   ├── KURAMOCHI_CTCF_merged.bed
+│   │   ├── KYSE-140_CTCF_merged.bed
+│   │   ├── L-02_CTCF_merged.bed
+│   │   ├── L1207_CTCF_merged.bed
+│   │   ├── LNCAP_CTCF_merged.bed
+│   │   ├── LOUCY_CTCF_merged.bed
+│   │   ├── LOVO_CTCF_merged.bed
+│   │   ├── M-14_CTCF_merged.bed
+│   │   ├── MCAS_CTCF_merged.bed
+│   │   ├── MCF10DCIS.COM_CTCF_merged.bed
+│   │   ├── MCF-7_CTCF_merged.bed
+│   │   ├── MDA-MB-231_CTCF_merged.bed
+│   │   ├── MDA-MB-435_CTCF_merged.bed
+│   │   ├── MEDULLO_CTCF_merged.bed
+│   │   ├── MEG-01_CTCF_merged.bed
+│   │   ├── MM.1S_CTCF_merged.bed
+│   │   ├── MOLM-13_CTCF_merged.bed
+│   │   ├── MOLT-14_CTCF_merged.bed
+│   │   ├── MS1_CTCF_merged.bed
+│   │   ├── MUTZ-3_CTCF_merged.bed
+│   │   ├── NALM-6_CTCF_merged.bed
+│   │   ├── NB-4_CTCF_merged.bed
+│   │   ├── NB69_CTCF_merged.bed
+│   │   ├── NCI-H929_CTCF_merged.bed
+│   │   ├── NEPHRONS_CTCF_merged.bed
+│   │   ├── NH-A_CTCF_merged.bed
+│   │   ├── NHDF_CTCF_merged.bed
+│   │   ├── NHDF-NEO_CTCF_merged.bed
+│   │   ├── NHEK_CTCF_merged.bed
+│   │   ├── NHLF_CTCF_merged.bed
+│   │   ├── OAW42_CTCF_merged.bed
+│   │   ├── OCI-LY1_CTCF_merged.bed
+│   │   ├── OCI-LY-3_CTCF_merged.bed
+│   │   ├── OCI-LY-7_CTCF_merged.bed
+│   │   ├── OCM-1_CTCF_merged.bed
+│   │   ├── OSTEOBL_CTCF_merged.bed
+│   │   ├── OVCAR-8_CTCF_merged.bed
+│   │   ├── PANC-1_CTCF_merged.bed
+│   │   ├── PC-3_CTCF_merged.bed
+│   │   ├── PC-9_CTCF_merged.bed
+│   │   ├── PER-117_CTCF_merged.bed
+│   │   ├── PREC_CTCF_merged.bed
+│   │   ├── RH-30_CTCF_merged.bed
+│   │   ├── RH-4_CTCF_merged.bed
+│   │   ├── RMG-II_CTCF_merged.bed
+│   │   ├── RPE_CTCF_merged.bed
+│   │   ├── RPTEC_CTCF_merged.bed
+│   │   ├── RT-112_CTCF_merged.bed
+│   │   ├── RWPE-1_CTCF_merged.bed
+│   │   ├── RWPE-2_CTCF_merged.bed
+│   │   ├── SAEC_CTCF_merged.bed
+│   │   ├── SCC090_CTCF_merged.bed
+│   │   ├── SEM_CTCF_merged.bed
+│   │   ├── SH-SY5Y_CTCF_merged.bed
+│   │   ├── SIHA_CTCF_merged.bed
+│   │   ├── SK-MEL-147_CTCF_merged.bed
+│   │   ├── SK-N-AS_CTCF_merged.bed
+│   │   ├── SK-N-SH_CTCF_merged.bed
+│   │   ├── SK-OV-3_CTCF_merged.bed
+│   │   ├── SMS-CTR_CTCF_merged.bed
+│   │   ├── SNU-475_CTCF_merged.bed
+│   │   ├── SU-DHL-6_CTCF_merged.bed
+│   │   ├── SU-DIPG-IV_CTCF_merged.bed
+│   │   ├── SVTS-8_CTCF_merged.bed
+│   │   ├── T-47D_CTCF_merged.bed
+│   │   ├── T-ALL_CTCF_merged.bed
+│   │   ├── TC-71_CTCF_merged.bed
+│   │   ├── THP-1_CTCF_merged.bed
+│   │   ├── TTC-1240_CTCF_merged.bed
+│   │   ├── U2OS_CTCF_merged.bed
+│   │   ├── U-937_CTCF_merged.bed
+│   │   ├── UT-7_CTCF_merged.bed
+│   │   ├── UWB1.289_CTCF_merged.bed
+│   │   ├── VCAP_CTCF_merged.bed
+│   │   ├── VOA1056_CTCF_merged.bed
+│   │   ├── WERI-RB-1_CTCF_merged.bed
+│   │   └── WI-38_CTCF_merged.bed
+│   ├── output.tsv
+│   └── split
+│       ├── 22RV1_CTCF_filtered.bed
+│       ├── 293_CTCF_filtered.bed
+│       ├── 5637_CTCF_filtered.bed
+│       ├── 697_CTCF_filtered.bed
+│       ├── 786-O_CTCF_filtered.bed
+│       ├── 93-VU147T_CTCF_filtered.bed
+│       ├── A2780_CTCF_filtered.bed
+│       ├── A-375_CTCF_filtered.bed
+│       ├── A549_CTCF_filtered.bed
+│       ├── A-673_CTCF_filtered.bed
+│       ├── AC7_CTCF_filtered.bed
+│       ├── AG04449_CTCF_filtered.bed
+│       ├── AG04450_CTCF_filtered.bed
+│       ├── AG09309_CTCF_filtered.bed
+│       ├── AG09319_CTCF_filtered.bed
+│       ├── AG10803_CTCF_filtered.bed
+│       ├── AOAF_CTCF_filtered.bed
+│       ├── BC-3_CTCF_filtered.bed
+│       ├── BCBL1_CTCF_filtered.bed
+│       ├── BEAS-2B_CTCF_filtered.bed
+│       ├── BJ_CTCF_filtered.bed
+│       ├── BLAER1_CTCF_filtered.bed
+│       ├── C4-2_CTCF_filtered.bed
+│       ├── CACO-2_CTCF_filtered.bed
+│       ├── CALU-3_CTCF_filtered.bed
+│       ├── CAOV-3_CTCF_filtered.bed
+│       ├── CD20+_CTCF_filtered.bed
+│       ├── CHRF-288-11_CTCF_filtered.bed
+│       ├── CUTLL1_CTCF_filtered.bed
+│       ├── D54_CTCF_filtered.bed
+│       ├── DELTA-47_CTCF_filtered.bed
+│       ├── DKO_CTCF_filtered.bed
+│       ├── DLD-1_CTCF_filtered.bed
+│       ├── DND-41_CTCF_filtered.bed
+│       ├── DOHH-2_CTCF_filtered.bed
+│       ├── DOMBI23_CTCF_filtered.bed
+│       ├── ECC-1_CTCF_filtered.bed
+│       ├── EEC16_CTCF_filtered.bed
+│       ├── EFO-27_CTCF_filtered.bed
+│       ├── ENDOC-BETAH3_CTCF_filtered.bed
+│       ├── EOL-1_CTCF_filtered.bed
+│       ├── ES-2_CTCF_filtered.bed
+│       ├── FADU_CTCF_filtered.bed
+│       ├── FB0167P_CTCF_filtered.bed
+│       ├── FB8470_CTCF_filtered.bed
+│       ├── FT246_CTCF_filtered.bed
+│       ├── FT282_CTCF_filtered.bed
+│       ├── FT33_CTCF_filtered.bed
+│       ├── FULVR_CTCF_filtered.bed
+│       ├── GFTR230_CTCF_filtered.bed
+│       ├── GM04604_CTCF_filtered.bed
+│       ├── GM04648_CTCF_filtered.bed
+│       ├── GM06077_CTCF_filtered.bed
+│       ├── GM06990_CTCF_filtered.bed
+│       ├── GM10248_CTCF_filtered.bed
+│       ├── GM10266_CTCF_filtered.bed
+│       ├── GM10847_CTCF_filtered.bed
+│       ├── GM12801_CTCF_filtered.bed
+│       ├── GM12864_CTCF_filtered.bed
+│       ├── GM12865_CTCF_filtered.bed
+│       ├── GM12866_CTCF_filtered.bed
+│       ├── GM12867_CTCF_filtered.bed
+│       ├── GM12868_CTCF_filtered.bed
+│       ├── GM12869_CTCF_filtered.bed
+│       ├── GM12870_CTCF_filtered.bed
+│       ├── GM12871_CTCF_filtered.bed
+│       ├── GM12872_CTCF_filtered.bed
+│       ├── GM12873_CTCF_filtered.bed
+│       ├── GM12874_CTCF_filtered.bed
+│       ├── GM12875_CTCF_filtered.bed
+│       ├── GM12878_CTCF_filtered.bed
+│       ├── GM12891_CTCF_filtered.bed
+│       ├── GM12892_CTCF_filtered.bed
+│       ├── GM13976_CTCF_filtered.bed
+│       ├── GM13977_CTCF_filtered.bed
+│       ├── GM18505_CTCF_filtered.bed
+│       ├── GM18526_CTCF_filtered.bed
+│       ├── GM18951_CTCF_filtered.bed
+│       ├── GM19099_CTCF_filtered.bed
+│       ├── GM19193_CTCF_filtered.bed
+│       ├── GM19238_CTCF_filtered.bed
+│       ├── GM19239_CTCF_filtered.bed
+│       ├── GM19240_CTCF_filtered.bed
+│       ├── GM20000_CTCF_filtered.bed
+│       ├── GP5D_CTCF_filtered.bed
+│       ├── GSC23_CTCF_filtered.bed
+│       ├── HAC_CTCF_filtered.bed
+│       ├── HAP1_CTCF_filtered.bed
+│       ├── HA-SP_CTCF_filtered.bed
+│       ├── HBMEC_CTCF_filtered.bed
+│       ├── HCFAA_CTCF_filtered.bed
+│       ├── HCM_CTCF_filtered.bed
+│       ├── HCPEPIC_CTCF_filtered.bed
+│       ├── HEC-1-B_CTCF_filtered.bed
+│       ├── HEEPIC_CTCF_filtered.bed
+│       ├── HELA_CTCF_filtered.bed
+│       ├── HEY_CTCF_filtered.bed
+│       ├── HFFC6_CTCF_filtered.bed
+│       ├── HFF_CTCF_filtered.bed
+│       ├── HFF-MYC_CTCF_filtered.bed
+│       ├── HL-60_CTCF_filtered.bed
+│       ├── HMEC_CTCF_filtered.bed
+│       ├── HMF_CTCF_filtered.bed
+│       ├── HMS001_CTCF_filtered.bed
+│       ├── HPAF_CTCF_filtered.bed
+│       ├── HPB-ALL_CTCF_filtered.bed
+│       ├── HPF_CTCF_filtered.bed
+│       ├── HRE_CTCF_filtered.bed
+│       ├── HRPEPIC_CTCF_filtered.bed
+│       ├── HSMM_CTCF_filtered.bed
+│       ├── HT-1080_CTCF_filtered.bed
+│       ├── HUDEP-1_CTCF_filtered.bed
+│       ├── HUDEP-2_CTCF_filtered.bed
+│       ├── HUVEC_CTCF_filtered.bed
+│       ├── HVMF_CTCF_filtered.bed
+│       ├── IMR-5_CTCF_filtered.bed
+│       ├── IMR-90_CTCF_filtered.bed
+│       ├── IOSE11_CTCF_filtered.bed
+│       ├── IOSE4_CTCF_filtered.bed
+│       ├── ISLK_CTCF_filtered.bed
+│       ├── JHOC-5_CTCF_filtered.bed
+│       ├── JURKAT_CTCF_filtered.bed
+│       ├── K-562_CTCF_filtered.bed
+│       ├── KASUMI-1_CTCF_filtered.bed
+│       ├── KELLY_CTCF_filtered.bed
+│       ├── KMS-11_CTCF_filtered.bed
+│       ├── KU812_CTCF_filtered.bed
+│       ├── KURAMOCHI_CTCF_filtered.bed
+│       ├── KYSE-140_CTCF_filtered.bed
+│       ├── L-02_CTCF_filtered.bed
+│       ├── L1207_CTCF_filtered.bed
+│       ├── LNCAP_CTCF_filtered.bed
+│       ├── LOUCY_CTCF_filtered.bed
+│       ├── LOVO_CTCF_filtered.bed
+│       ├── M-14_CTCF_filtered.bed
+│       ├── MCAS_CTCF_filtered.bed
+│       ├── MCF10DCIS.COM_CTCF_filtered.bed
+│       ├── MCF-7_CTCF_filtered.bed
+│       ├── MDA-MB-231_CTCF_filtered.bed
+│       ├── MDA-MB-435_CTCF_filtered.bed
+│       ├── MEDULLO_CTCF_filtered.bed
+│       ├── MEG-01_CTCF_filtered.bed
+│       ├── MM.1S_CTCF_filtered.bed
+│       ├── MOLM-13_CTCF_filtered.bed
+│       ├── MOLT-14_CTCF_filtered.bed
+│       ├── MS1_CTCF_filtered.bed
+│       ├── MUTZ-3_CTCF_filtered.bed
+│       ├── NALM-6_CTCF_filtered.bed
+│       ├── NB-4_CTCF_filtered.bed
+│       ├── NB69_CTCF_filtered.bed
+│       ├── NCI-H929_CTCF_filtered.bed
+│       ├── NEPHRONS_CTCF_filtered.bed
+│       ├── NH-A_CTCF_filtered.bed
+│       ├── NHDF_CTCF_filtered.bed
+│       ├── NHDF-NEO_CTCF_filtered.bed
+│       ├── NHEK_CTCF_filtered.bed
+│       ├── NHLF_CTCF_filtered.bed
+│       ├── OAW42_CTCF_filtered.bed
+│       ├── OCI-LY1_CTCF_filtered.bed
+│       ├── OCI-LY-3_CTCF_filtered.bed
+│       ├── OCI-LY-7_CTCF_filtered.bed
+│       ├── OCM-1_CTCF_filtered.bed
+│       ├── OSTEOBL_CTCF_filtered.bed
+│       ├── OVCAR-8_CTCF_filtered.bed
+│       ├── PANC-1_CTCF_filtered.bed
+│       ├── PC-3_CTCF_filtered.bed
+│       ├── PC-9_CTCF_filtered.bed
+│       ├── PER-117_CTCF_filtered.bed
+│       ├── PREC_CTCF_filtered.bed
+│       ├── RH-30_CTCF_filtered.bed
+│       ├── RH-4_CTCF_filtered.bed
+│       ├── RMG-II_CTCF_filtered.bed
+│       ├── RPE_CTCF_filtered.bed
+│       ├── RPTEC_CTCF_filtered.bed
+│       ├── RT-112_CTCF_filtered.bed
+│       ├── RWPE-1_CTCF_filtered.bed
+│       ├── RWPE-2_CTCF_filtered.bed
+│       ├── SAEC_CTCF_filtered.bed
+│       ├── SCC090_CTCF_filtered.bed
+│       ├── SEM_CTCF_filtered.bed
+│       ├── SH-SY5Y_CTCF_filtered.bed
+│       ├── SIHA_CTCF_filtered.bed
+│       ├── SK-MEL-147_CTCF_filtered.bed
+│       ├── SK-N-AS_CTCF_filtered.bed
+│       ├── SK-N-SH_CTCF_filtered.bed
+│       ├── SK-OV-3_CTCF_filtered.bed
+│       ├── SMS-CTR_CTCF_filtered.bed
+│       ├── SNU-475_CTCF_filtered.bed
+│       ├── SU-DHL-6_CTCF_filtered.bed
+│       ├── SU-DIPG-IV_CTCF_filtered.bed
+│       ├── SVTS-8_CTCF_filtered.bed
+│       ├── T-47D_CTCF_filtered.bed
+│       ├── T-ALL_CTCF_filtered.bed
+│       ├── TC-71_CTCF_filtered.bed
+│       ├── THP-1_CTCF_filtered.bed
+│       ├── TTC-1240_CTCF_filtered.bed
+│       ├── U2OS_CTCF_filtered.bed
+│       ├── U-937_CTCF_filtered.bed
+│       ├── UT-7_CTCF_filtered.bed
+│       ├── UWB1.289_CTCF_filtered.bed
+│       ├── VCAP_CTCF_filtered.bed
+│       ├── VOA1056_CTCF_filtered.bed
+│       ├── WERI-RB-1_CTCF_filtered.bed
+│       └── WI-38_CTCF_filtered.bed
+├── E2F1
+│   ├── aggregate.tsv
+│   ├── filtered_output.tsv
+│   ├── merged
+│   │   ├── HELA_E2F1_merged.bed
+│   │   ├── HEP_G2_E2F1_merged.bed
+│   │   ├── HEP-G2_E2F1_merged.bed
+│   │   ├── HMEC_E2F1_merged.bed
+│   │   ├── K-562_E2F1_merged.bed
+│   │   ├── LNCAP_E2F1_merged.bed
+│   │   ├── MCF-7_E2F1_merged.bed
+│   │   ├── MDA-MB-231_E2F1_merged.bed
+│   │   ├── MM.1S_E2F1_merged.bed
+│   │   ├── OCI-LY1_E2F1_merged.bed
+│   │   ├── RAJI_E2F1_merged.bed
+│   │   ├── SK-MEL-147_E2F1_merged.bed
+│   │   ├── U-266_E2F1_merged.bed
+│   │   └── U2OS_E2F1_merged.bed
+│   ├── output.tsv
+│   └── split
+│       ├── HELA_E2F1_filtered.bed
+│       ├── HEP_G2_E2F1_filtered.bed
+│       ├── HEP-G2_E2F1_filtered.bed
+│       ├── HMEC_E2F1_filtered.bed
+│       ├── K-562_E2F1_filtered.bed
+│       ├── LNCAP_E2F1_filtered.bed
+│       ├── MCF-7_E2F1_filtered.bed
+│       ├── MDA-MB-231_E2F1_filtered.bed
+│       ├── MM.1S_E2F1_filtered.bed
+│       ├── OCI-LY1_E2F1_filtered.bed
+│       ├── RAJI_E2F1_filtered.bed
+│       ├── SK-MEL-147_E2F1_filtered.bed
+│       ├── U-266_E2F1_filtered.bed
+│       └── U2OS_E2F1_filtered.bed
+├── E2F2
+│   ├── aggregate.tsv
+│   ├── filtered_output.tsv
+│   ├── merged
+│   │   ├── HEP_G2_E2F2_merged.bed
+│   │   ├── HEP-G2_E2F2_merged.bed
+│   │   └── LOVO_E2F2_merged.bed
+│   ├── output.tsv
+│   └── split
+│       ├── HEP_G2_E2F2_filtered.bed
+│       ├── HEP-G2_E2F2_filtered.bed
+│       └── LOVO_E2F2_filtered.bed
+├── ERG
+│   ├── aggregate.tsv
+│   ├── filtered_output.tsv
+│   ├── merged
+│   │   ├── AT1_ERG_merged.bed
+│   │   ├── CHLA-25_ERG_merged.bed
+│   │   ├── EW-3_ERG_merged.bed
+│   │   ├── HAEC_ERG_merged.bed
+│   │   ├── HUVEC_ERG_merged.bed
+│   │   ├── JURKAT_ERG_merged.bed
+│   │   ├── K-562_ERG_merged.bed
+│   │   ├── KASUMI-1_ERG_merged.bed
+│   │   ├── MCF-7_ERG_merged.bed
+│   │   ├── ME-1_ERG_merged.bed
+│   │   ├── MUTZ-5_ERG_merged.bed
+│   │   ├── NALM-6_ERG_merged.bed
+│   │   ├── REH_ERG_merged.bed
+│   │   ├── RWPE-1_ERG_merged.bed
+│   │   ├── SEM_ERG_merged.bed
+│   │   ├── SKNO-1_ERG_merged.bed
+│   │   ├── TC-106_ERG_merged.bed
+│   │   ├── TSU-1621MT_ERG_merged.bed
+│   │   ├── UOC-B6_ERG_merged.bed
+│   │   └── VCAP_ERG_merged.bed
+│   ├── output.tsv
+│   └── split
+│       ├── AT1_ERG_filtered.bed
+│       ├── CHLA-25_ERG_filtered.bed
+│       ├── EW-3_ERG_filtered.bed
+│       ├── HAEC_ERG_filtered.bed
+│       ├── HUVEC_ERG_filtered.bed
+│       ├── JURKAT_ERG_filtered.bed
+│       ├── K-562_ERG_filtered.bed
+│       ├── KASUMI-1_ERG_filtered.bed
+│       ├── MCF-7_ERG_filtered.bed
+│       ├── ME-1_ERG_filtered.bed
+│       ├── MUTZ-5_ERG_filtered.bed
+│       ├── NALM-6_ERG_filtered.bed
+│       ├── REH_ERG_filtered.bed
+│       ├── RWPE-1_ERG_filtered.bed
+│       ├── SEM_ERG_filtered.bed
+│       ├── SKNO-1_ERG_filtered.bed
+│       ├── TC-106_ERG_filtered.bed
+│       ├── TSU-1621MT_ERG_filtered.bed
+│       ├── UOC-B6_ERG_filtered.bed
+│       └── VCAP_ERG_filtered.bed
+├── ESR1
+│   ├── aggregate.tsv
+│   ├── filtered_output.tsv
+│   ├── merged
+│   │   ├── BT-474_ESR1_merged.bed
+│   │   ├── ECC-1_ESR1_merged.bed
+│   │   ├── FULR_ESR1_merged.bed
+│   │   ├── H3396_ESR1_merged.bed
+│   │   ├── HCC1428-LTED_ESR1_merged.bed
+│   │   ├── HCI005_ESR1_merged.bed
+│   │   ├── ISHIKAWA_ESR1_merged.bed
+│   │   ├── LNCAP_ESR1_merged.bed
+│   │   ├── LY2_ESR1_merged.bed
+│   │   ├── MCF-10A_ESR1_merged.bed
+│   │   ├── MCF-7_ESR1_merged.bed
+│   │   ├── MCF-7-LTED_ESR1_merged.bed
+│   │   ├── MDA-MB-134-VI_ESR1_merged.bed
+│   │   ├── MDA-MB-231_ESR1_merged.bed
+│   │   ├── MDA-MB-453_ESR1_merged.bed
+│   │   ├── SUM44PE_ESR1_merged.bed
+│   │   ├── T-47D_ESR1_merged.bed
+│   │   ├── U2OS_ESR1_merged.bed
+│   │   ├── VCAP_ESR1_merged.bed
+│   │   └── ZR-75-1_ESR1_merged.bed
+│   ├── output.tsv
+│   └── split
+│       ├── BT-474_ESR1_filtered.bed
+│       ├── ECC-1_ESR1_filtered.bed
+│       ├── FULR_ESR1_filtered.bed
+│       ├── H3396_ESR1_filtered.bed
+│       ├── HCC1428-LTED_ESR1_filtered.bed
+│       ├── HCI005_ESR1_filtered.bed
+│       ├── ISHIKAWA_ESR1_filtered.bed
+│       ├── LNCAP_ESR1_filtered.bed
+│       ├── LY2_ESR1_filtered.bed
+│       ├── MCF-10A_ESR1_filtered.bed
+│       ├── MCF-7_ESR1_filtered.bed
+│       ├── MCF-7-LTED_ESR1_filtered.bed
+│       ├── MDA-MB-134-VI_ESR1_filtered.bed
+│       ├── MDA-MB-231_ESR1_filtered.bed
+│       ├── MDA-MB-453_ESR1_filtered.bed
+│       ├── SUM44PE_ESR1_filtered.bed
+│       ├── T-47D_ESR1_filtered.bed
+│       ├── U2OS_ESR1_filtered.bed
+│       ├── VCAP_ESR1_filtered.bed
+│       └── ZR-75-1_ESR1_filtered.bed
+├── FOS
+│   ├── aggregate.tsv
+│   ├── filtered_output.tsv
+│   ├── merged
+│   │   ├── 143B_FOS_merged.bed
+│   │   ├── CFPAC-1_FOS_merged.bed
+│   │   ├── GM12878_FOS_merged.bed
+│   │   ├── HCT116_FOS_merged.bed
+│   │   ├── HELA_FOS_merged.bed
+│   │   ├── HOS_FOS_merged.bed
+│   │   ├── HUVEC_FOS_merged.bed
+│   │   ├── IMR-90_FOS_merged.bed
+│   │   ├── K-562_FOS_merged.bed
+│   │   ├── KASUMI-1_FOS_merged.bed
+│   │   ├── LOVO_FOS_merged.bed
+│   │   ├── MCF-10A_FOS_merged.bed
+│   │   ├── MCF-7_FOS_merged.bed
+│   │   ├── MG-63_FOS_merged.bed
+│   │   ├── MM.1S_FOS_merged.bed
+│   │   ├── MNNG_FOS_merged.bed
+│   │   ├── MV-4-11_FOS_merged.bed
+│   │   └── THP-1_FOS_merged.bed
+│   ├── output.tsv
+│   └── split
+│       ├── 143B_FOS_filtered.bed
+│       ├── CFPAC-1_FOS_filtered.bed
+│       ├── GM12878_FOS_filtered.bed
+│       ├── HCT116_FOS_filtered.bed
+│       ├── HELA_FOS_filtered.bed
+│       ├── HOS_FOS_filtered.bed
+│       ├── HUVEC_FOS_filtered.bed
+│       ├── IMR-90_FOS_filtered.bed
+│       ├── K-562_FOS_filtered.bed
+│       ├── KASUMI-1_FOS_filtered.bed
+│       ├── LOVO_FOS_filtered.bed
+│       ├── MCF-10A_FOS_filtered.bed
+│       ├── MCF-7_FOS_filtered.bed
+│       ├── MG-63_FOS_filtered.bed
+│       ├── MM.1S_FOS_filtered.bed
+│       ├── MNNG_FOS_filtered.bed
+│       ├── MV-4-11_FOS_filtered.bed
+│       └── THP-1_FOS_filtered.bed
+├── FOSB
+│   ├── aggregate.tsv
+│   ├── filtered_output.tsv
+│   ├── merged
+│   │   ├── A549_FOSB_merged.bed
+│   │   └── LOVO_FOSB_merged.bed
+│   ├── output.tsv
+│   └── split
+│       ├── A549_FOSB_filtered.bed
+│       └── LOVO_FOSB_filtered.bed
+├── FOSL1
+│   ├── aggregate.tsv
+│   ├── filtered_output.tsv
+│   ├── merged
+│   │   ├── 143B_FOSL1_merged.bed
+│   │   ├── BT-549_FOSL1_merged.bed
+│   │   ├── DU145_FOSL1_merged.bed
+│   │   ├── HCT116_FOSL1_merged.bed
+│   │   ├── HEP-G2_FOSL1_merged.bed
+│   │   ├── HOS_FOSL1_merged.bed
+│   │   ├── K-562_FOSL1_merged.bed
+│   │   ├── LOVO_FOSL1_merged.bed
+│   │   ├── MDA-MB-231_FOSL1_merged.bed
+│   │   ├── MG-63_FOSL1_merged.bed
+│   │   ├── MNNG_FOSL1_merged.bed
+│   │   ├── MSK-PCA3_FOSL1_merged.bed
+│   │   ├── PC-3_FOSL1_merged.bed
+│   │   └── T24_FOSL1_merged.bed
+│   ├── output.tsv
+│   └── split
+│       ├── 143B_FOSL1_filtered.bed
+│       ├── BT-549_FOSL1_filtered.bed
+│       ├── DU145_FOSL1_filtered.bed
+│       ├── HCT116_FOSL1_filtered.bed
+│       ├── HEP-G2_FOSL1_filtered.bed
+│       ├── HOS_FOSL1_filtered.bed
+│       ├── K-562_FOSL1_filtered.bed
+│       ├── LOVO_FOSL1_filtered.bed
+│       ├── MDA-MB-231_FOSL1_filtered.bed
+│       ├── MG-63_FOSL1_filtered.bed
+│       ├── MNNG_FOSL1_filtered.bed
+│       ├── MSK-PCA3_FOSL1_filtered.bed
+│       ├── PC-3_FOSL1_filtered.bed
+│       └── T24_FOSL1_filtered.bed
+├── FOSL2
+│   ├── aggregate.tsv
+│   ├── filtered_output.tsv
+│   ├── merged
+│   │   ├── A549_FOSL2_merged.bed
+│   │   ├── HEP-G2_FOSL2_merged.bed
+│   │   ├── LPS141_FOSL2_merged.bed
+│   │   ├── MCF-7_FOSL2_merged.bed
+│   │   ├── MDA-MB-231_FOSL2_merged.bed
+│   │   ├── SK-MEL-147_FOSL2_merged.bed
+│   │   └── SK-N-SH_FOSL2_merged.bed
+│   ├── output.tsv
+│   └── split
+│       ├── A549_FOSL2_filtered.bed
+│       ├── HEP-G2_FOSL2_filtered.bed
+│       ├── LPS141_FOSL2_filtered.bed
+│       ├── MCF-7_FOSL2_filtered.bed
+│       ├── MDA-MB-231_FOSL2_filtered.bed
+│       ├── SK-MEL-147_FOSL2_filtered.bed
+│       └── SK-N-SH_FOSL2_filtered.bed
+├── FOXA1
+│   ├── aggregate.tsv
+│   ├── filtered_output.tsv
+│   ├── merged
+│   │   ├── 22RV1_FOXA1_merged.bed
+│   │   ├── 293_FOXA1_merged.bed
+│   │   ├── 5637_FOXA1_merged.bed
+│   │   ├── A549_FOXA1_merged.bed
+│   │   ├── C4-2B_FOXA1_merged.bed
+│   │   ├── C4-2_FOXA1_merged.bed
+│   │   ├── CAMA-1_FOXA1_merged.bed
+│   │   ├── CFPAC-1_FOXA1_merged.bed
+│   │   ├── DU145_FOXA1_merged.bed
+│   │   ├── ECC-1_FOXA1_merged.bed
+│   │   ├── GP5D_FOXA1_merged.bed
+│   │   ├── HCC1954_FOXA1_merged.bed
+│   │   ├── HEC-1-A_FOXA1_merged.bed
+│   │   ├── HEP-G2_FOXA1_merged.bed
+│   │   ├── HUH-7_FOXA1_merged.bed
+│   │   ├── ISHIKAWA_FOXA1_merged.bed
+│   │   ├── K-562_FOXA1_merged.bed
+│   │   ├── LNCAP_FOXA1_merged.bed
+│   │   ├── LS-180_FOXA1_merged.bed
+│   │   ├── LUCAP_FOXA1_merged.bed
+│   │   ├── MCF-7_FOXA1_merged.bed
+│   │   ├── MDA-MB-134-VI_FOXA1_merged.bed
+│   │   ├── MDA-MB-231_FOXA1_merged.bed
+│   │   ├── MDA-MB-453_FOXA1_merged.bed
+│   │   ├── NCI-H3122_FOXA1_merged.bed
+│   │   ├── NCI-H441_FOXA1_merged.bed
+│   │   ├── RT4_FOXA1_merged.bed
+│   │   ├── SK-BR-3_FOXA1_merged.bed
+│   │   ├── SUM44PE_FOXA1_merged.bed
+│   │   ├── T-47D_FOXA1_merged.bed
+│   │   └── VCAP_FOXA1_merged.bed
+│   ├── output.tsv
+│   └── split
+│       ├── 22RV1_FOXA1_filtered.bed
+│       ├── 293_FOXA1_filtered.bed
+│       ├── 5637_FOXA1_filtered.bed
+│       ├── A549_FOXA1_filtered.bed
+│       ├── C4-2B_FOXA1_filtered.bed
+│       ├── C4-2_FOXA1_filtered.bed
+│       ├── CAMA-1_FOXA1_filtered.bed
+│       ├── CFPAC-1_FOXA1_filtered.bed
+│       ├── DU145_FOXA1_filtered.bed
+│       ├── ECC-1_FOXA1_filtered.bed
+│       ├── GP5D_FOXA1_filtered.bed
+│       ├── HCC1954_FOXA1_filtered.bed
+│       ├── HEC-1-A_FOXA1_filtered.bed
+│       ├── HEP-G2_FOXA1_filtered.bed
+│       ├── HUH-7_FOXA1_filtered.bed
+│       ├── ISHIKAWA_FOXA1_filtered.bed
+│       ├── K-562_FOXA1_filtered.bed
+│       ├── LNCAP_FOXA1_filtered.bed
+│       ├── LS-180_FOXA1_filtered.bed
+│       ├── MCF-7_FOXA1_filtered.bed
+│       ├── MDA-MB-134-VI_FOXA1_filtered.bed
+│       ├── MDA-MB-231_FOXA1_filtered.bed
+│       ├── MDA-MB-453_FOXA1_filtered.bed
+│       ├── NCI-H3122_FOXA1_filtered.bed
+│       ├── NCI-H441_FOXA1_filtered.bed
+│       ├── RT4_FOXA1_filtered.bed
+│       ├── SK-BR-3_FOXA1_filtered.bed
+│       ├── SUM44PE_FOXA1_filtered.bed
+│       ├── T-47D_FOXA1_filtered.bed
+│       └── VCAP_FOXA1_filtered.bed
+├── FOXA2
+│   ├── aggregate.tsv
+│   ├── filtered_output.tsv
+│   ├── merged
+│   │   ├── A549_FOXA2_merged.bed
+│   │   ├── BJ_FOXA2_merged.bed
+│   │   ├── CACO-2_FOXA2_merged.bed
+│   │   ├── CFPAC-1_FOXA2_merged.bed
+│   │   ├── HEP-G2_FOXA2_merged.bed
+│   │   ├── JHH-7_FOXA2_merged.bed
+│   │   ├── KER-CT_FOXA2_merged.bed
+│   │   ├── LNCAP_FOXA2_merged.bed
+│   │   ├── LOVO_FOXA2_merged.bed
+│   │   ├── MDA-MB-231_FOXA2_merged.bed
+│   │   ├── NCI-H660_FOXA2_merged.bed
+│   │   ├── PANC-1_FOXA2_merged.bed
+│   │   ├── PC-3_FOXA2_merged.bed
+│   │   └── SW480_FOXA2_merged.bed
+│   ├── output.tsv
+│   └── split
+│       ├── A549_FOXA2_filtered.bed
+│       ├── BJ_FOXA2_filtered.bed
+│       ├── CACO-2_FOXA2_filtered.bed
+│       ├── CFPAC-1_FOXA2_filtered.bed
+│       ├── HEP-G2_FOXA2_filtered.bed
+│       ├── JHH-7_FOXA2_filtered.bed
+│       ├── KER-CT_FOXA2_filtered.bed
+│       ├── LNCAP_FOXA2_filtered.bed
+│       ├── LOVO_FOXA2_filtered.bed
+│       ├── MDA-MB-231_FOXA2_filtered.bed
+│       ├── NCI-H660_FOXA2_filtered.bed
+│       ├── PANC-1_FOXA2_filtered.bed
+│       ├── PC-3_FOXA2_filtered.bed
+│       └── SW480_FOXA2_filtered.bed
+├── FOXM1
+│   ├── aggregate.tsv
+│   ├── filtered_output.tsv
+│   ├── merged
+│   │   ├── 22RV1_FOXM1_merged.bed
+│   │   ├── 293_FOXM1_merged.bed
+│   │   ├── A549_FOXM1_merged.bed
+│   │   ├── ECC-1_FOXM1_merged.bed
+│   │   ├── GM12878_FOXM1_merged.bed
+│   │   ├── HELA_FOXM1_merged.bed
+│   │   ├── HEP-G2_FOXM1_merged.bed
+│   │   ├── HMEC_FOXM1_merged.bed
+│   │   ├── HUH-7_FOXM1_merged.bed
+│   │   ├── K-562_FOXM1_merged.bed
+│   │   ├── MCF-7_FOXM1_merged.bed
+│   │   ├── MDA-MB-231_FOXM1_merged.bed
+│   │   ├── SK-N-SH_FOXM1_merged.bed
+│   │   └── U2OS_FOXM1_merged.bed
+│   ├── output.tsv
+│   └── split
+│       ├── 22RV1_FOXM1_filtered.bed
+│       ├── 293_FOXM1_filtered.bed
+│       ├── A549_FOXM1_filtered.bed
+│       ├── ECC-1_FOXM1_filtered.bed
+│       ├── GM12878_FOXM1_filtered.bed
+│       ├── HELA_FOXM1_filtered.bed
+│       ├── HEP-G2_FOXM1_filtered.bed
+│       ├── HMEC_FOXM1_filtered.bed
+│       ├── HUH-7_FOXM1_filtered.bed
+│       ├── K-562_FOXM1_filtered.bed
+│       ├── MCF-7_FOXM1_filtered.bed
+│       ├── MDA-MB-231_FOXM1_filtered.bed
+│       ├── SK-N-SH_FOXM1_filtered.bed
+│       └── U2OS_FOXM1_filtered.bed
+├── GATA2
+│   ├── aggregate.tsv
+│   ├── filtered_output.tsv
+│   ├── merged
+│   │   ├── HEP-G2_GATA2_merged.bed
+│   │   ├── HL-60_GATA2_merged.bed
+│   │   ├── HUVEC_GATA2_merged.bed
+│   │   ├── K-562_GATA2_merged.bed
+│   │   ├── KASUMI-1_GATA2_merged.bed
+│   │   ├── LNCAP_GATA2_merged.bed
+│   │   ├── ME-1_GATA2_merged.bed
+│   │   ├── SH-SY5Y_GATA2_merged.bed
+│   │   ├── SKH1_GATA2_merged.bed
+│   │   ├── SK-N-SH_GATA2_merged.bed
+│   │   ├── TF-1_GATA2_merged.bed
+│   │   └── TSU-1621MT_GATA2_merged.bed
+│   ├── output.tsv
+│   └── split
+│       ├── HEP-G2_GATA2_filtered.bed
+│       ├── HL-60_GATA2_filtered.bed
+│       ├── HUVEC_GATA2_filtered.bed
+│       ├── K-562_GATA2_filtered.bed
+│       ├── KASUMI-1_GATA2_filtered.bed
+│       ├── LNCAP_GATA2_filtered.bed
+│       ├── ME-1_GATA2_filtered.bed
+│       ├── SH-SY5Y_GATA2_filtered.bed
+│       ├── SKH1_GATA2_filtered.bed
+│       ├── SK-N-SH_GATA2_filtered.bed
+│       ├── TF-1_GATA2_filtered.bed
+│       └── TSU-1621MT_GATA2_filtered.bed
+├── GATA4
+│   ├── aggregate.tsv
+│   ├── filtered_output.tsv
+│   ├── merged
+│   │   ├── A549_GATA4_merged.bed
+│   │   ├── AGS_GATA4_merged.bed
+│   │   ├── BJ_GATA4_merged.bed
+│   │   ├── ESO-26_GATA4_merged.bed
+│   │   ├── HEP-G2_GATA4_merged.bed
+│   │   ├── MCF-7_GATA4_merged.bed
+│   │   └── YCC-3_GATA4_merged.bed
+│   ├── output.tsv
+│   └── split
+│       ├── A549_GATA4_filtered.bed
+│       ├── AGS_GATA4_filtered.bed
+│       ├── BJ_GATA4_filtered.bed
+│       ├── ESO-26_GATA4_filtered.bed
+│       ├── HEP-G2_GATA4_filtered.bed
+│       ├── MCF-7_GATA4_filtered.bed
+│       └── YCC-3_GATA4_filtered.bed
+├── HNF4G
+│   ├── aggregate.tsv
+│   ├── filtered_output.tsv
+│   ├── merged
+│   │   ├── 22RV1_HNF4G_merged.bed
+│   │   ├── HEP_G2_HNF4G_merged.bed
+│   │   ├── HEP-G2_HNF4G_merged.bed
+│   │   └── LNCAP_HNF4G_merged.bed
+│   ├── output.tsv
+│   └── split
+│       ├── 22RV1_HNF4G_filtered.bed
+│       ├── HEP_G2_HNF4G_filtered.bed
+│       ├── HEP-G2_HNF4G_filtered.bed
+│       └── LNCAP_HNF4G_filtered.bed
+├── HOXB13
+│   ├── aggregate.tsv
+│   ├── filtered_output.tsv
+│   ├── merged
+│   │   ├── 22RV1_HOXB13_merged.bed
+│   │   ├── A549_HOXB13_merged.bed
+│   │   ├── C4-2B_HOXB13_merged.bed
+│   │   ├── G-401_HOXB13_merged.bed
+│   │   ├── LNCAP_HOXB13_merged.bed
+│   │   ├── LuCaP-77CR_HOXB13_merged.bed
+│   │   ├── LuCaP-77_HOXB13_merged.bed
+│   │   ├── LuCaP-78_HOXB13_merged.bed
+│   │   ├── LuCaP-81_HOXB13_merged.bed
+│   │   ├── PC-3_HOXB13_merged.bed
+│   │   └── VCAP_HOXB13_merged.bed
+│   ├── output.tsv
+│   └── split
+│       ├── 22RV1_HOXB13_filtered.bed
+│       ├── A549_HOXB13_filtered.bed
+│       ├── C4-2B_HOXB13_filtered.bed
+│       ├── G-401_HOXB13_filtered.bed
+│       ├── LNCAP_HOXB13_filtered.bed
+│       ├── LuCaP-77CR_HOXB13_filtered.bed
+│       ├── LuCaP-77_HOXB13_filtered.bed
+│       ├── LuCaP-78_HOXB13_filtered.bed
+│       ├── LuCaP-81_HOXB13_filtered.bed
+│       ├── PC-3_HOXB13_filtered.bed
+│       └── VCAP_HOXB13_filtered.bed
+├── JUN
+│   ├── aggregate.tsv
+│   ├── filtered_output.tsv
+│   ├── merged
+│   │   ├── A549_JUN_merged.bed
+│   │   ├── BIN-67_JUN_merged.bed
+│   │   ├── BJ-5TA_JUN_merged.bed
+│   │   ├── BT-549_JUN_merged.bed
+│   │   ├── CALU-3_JUN_merged.bed
+│   │   ├── GM07492_JUN_merged.bed
+│   │   ├── HAEC_JUN_merged.bed
+│   │   ├── HCASMC_JUN_merged.bed
+│   │   ├── HCC827_JUN_merged.bed
+│   │   ├── HEP-G2_JUN_merged.bed
+│   │   ├── HUVEC_JUN_merged.bed
+│   │   ├── ISHIKAWA_JUN_merged.bed
+│   │   ├── K-562_JUN_merged.bed
+│   │   ├── KARPAS-299_JUN_merged.bed
+│   │   ├── LNCAP_JUN_merged.bed
+│   │   ├── LOVO_JUN_merged.bed
+│   │   ├── LPS141_JUN_merged.bed
+│   │   ├── MCF-10A_JUN_merged.bed
+│   │   ├── MCF-7_JUN_merged.bed
+│   │   ├── MDA-MB-231_JUN_merged.bed
+│   │   ├── MRC-5_JUN_merged.bed
+│   │   ├── MV-4-11_JUN_merged.bed
+│   │   ├── NCI-H660_JUN_merged.bed
+│   │   ├── PC-3_JUN_merged.bed
+│   │   ├── SCCOHT-1_JUN_merged.bed
+│   │   └── T-47D_JUN_merged.bed
+│   ├── output.tsv
+│   └── split
+│       ├── A549_JUN_filtered.bed
+│       ├── BIN-67_JUN_filtered.bed
+│       ├── BJ-5TA_JUN_filtered.bed
+│       ├── BT-549_JUN_filtered.bed
+│       ├── CALU-3_JUN_filtered.bed
+│       ├── GM07492_JUN_filtered.bed
+│       ├── HAEC_JUN_filtered.bed
+│       ├── HCASMC_JUN_filtered.bed
+│       ├── HCC827_JUN_filtered.bed
+│       ├── HEP-G2_JUN_filtered.bed
+│       ├── HUVEC_JUN_filtered.bed
+│       ├── ISHIKAWA_JUN_filtered.bed
+│       ├── K-562_JUN_filtered.bed
+│       ├── KARPAS-299_JUN_filtered.bed
+│       ├── LNCAP_JUN_filtered.bed
+│       ├── LOVO_JUN_filtered.bed
+│       ├── LPS141_JUN_filtered.bed
+│       ├── MCF-10A_JUN_filtered.bed
+│       ├── MCF-7_JUN_filtered.bed
+│       ├── MDA-MB-231_JUN_filtered.bed
+│       ├── MRC-5_JUN_filtered.bed
+│       ├── MV-4-11_JUN_filtered.bed
+│       ├── NCI-H660_JUN_filtered.bed
+│       ├── PC-3_JUN_filtered.bed
+│       ├── SCCOHT-1_JUN_filtered.bed
+│       └── T-47D_JUN_filtered.bed
+├── JUNB
+│   ├── aggregate.tsv
+│   ├── filtered_output.tsv
+│   ├── merged
+│   │   ├── A-375_JUNB_merged.bed
+│   │   ├── A549_JUNB_merged.bed
+│   │   ├── AG876_JUNB_merged.bed
+│   │   ├── CFPAC-1_JUNB_merged.bed
+│   │   ├── GM12878_JUNB_merged.bed
+│   │   ├── HAEC_JUNB_merged.bed
+│   │   ├── JIYOYE_JUNB_merged.bed
+│   │   ├── K-562_JUNB_merged.bed
+│   │   ├── KARPAS-299_JUNB_merged.bed
+│   │   ├── LOVO_JUNB_merged.bed
+│   │   ├── MCF-10A_JUNB_merged.bed
+│   │   ├── MCF-7_JUNB_merged.bed
+│   │   ├── MDA-MB-231_JUNB_merged.bed
+│   │   └── U2OS_JUNB_merged.bed
+│   ├── output.tsv
+│   └── split
+│       ├── A-375_JUNB_filtered.bed
+│       ├── A549_JUNB_filtered.bed
+│       ├── AG876_JUNB_filtered.bed
+│       ├── CFPAC-1_JUNB_filtered.bed
+│       ├── GM12878_JUNB_filtered.bed
+│       ├── HAEC_JUNB_filtered.bed
+│       ├── JIYOYE_JUNB_filtered.bed
+│       ├── K-562_JUNB_filtered.bed
+│       ├── KARPAS-299_JUNB_filtered.bed
+│       ├── LOVO_JUNB_filtered.bed
+│       ├── MCF-10A_JUNB_filtered.bed
+│       ├── MCF-7_JUNB_filtered.bed
+│       ├── MDA-MB-231_JUNB_filtered.bed
+│       └── U2OS_JUNB_filtered.bed
+├── JUND
+│   ├── aggregate.tsv
+│   ├── filtered_output.tsv
+│   ├── merged
+│   │   ├── A549_JUND_merged.bed
+│   │   ├── BEAS-2B_JUND_merged.bed
+│   │   ├── CALU-3_JUND_merged.bed
+│   │   ├── DU145_JUND_merged.bed
+│   │   ├── GM12878_JUND_merged.bed
+│   │   ├── GP5D_JUND_merged.bed
+│   │   ├── HCASMC_JUND_merged.bed
+│   │   ├── HCT116_JUND_merged.bed
+│   │   ├── HEP-G2_JUND_merged.bed
+│   │   ├── HT-29_JUND_merged.bed
+│   │   ├── K-562_JUND_merged.bed
+│   │   ├── KASUMI-1_JUND_merged.bed
+│   │   ├── LOVO_JUND_merged.bed
+│   │   ├── MCF-7_JUND_merged.bed
+│   │   ├── PC-3_JUND_merged.bed
+│   │   ├── SK-N-SH_JUND_merged.bed
+│   │   └── T-47D_JUND_merged.bed
+│   ├── output.tsv
+│   └── split
+│       ├── A549_JUND_filtered.bed
+│       ├── BEAS-2B_JUND_filtered.bed
+│       ├── CALU-3_JUND_filtered.bed
+│       ├── DU145_JUND_filtered.bed
+│       ├── GM12878_JUND_filtered.bed
+│       ├── GP5D_JUND_filtered.bed
+│       ├── HCASMC_JUND_filtered.bed
+│       ├── HCT116_JUND_filtered.bed
+│       ├── HEP-G2_JUND_filtered.bed
+│       ├── HT-29_JUND_filtered.bed
+│       ├── K-562_JUND_filtered.bed
+│       ├── KASUMI-1_JUND_filtered.bed
+│       ├── LOVO_JUND_filtered.bed
+│       ├── MCF-7_JUND_filtered.bed
+│       ├── PC-3_JUND_filtered.bed
+│       ├── SK-N-SH_JUND_filtered.bed
+│       └── T-47D_JUND_filtered.bed
+├── MAX
+│   ├── aggregate.tsv
+│   ├── filtered_output.tsv
+│   ├── merged
+│   │   ├── 22RV1_MAX_merged.bed
+│   │   ├── A549_MAX_merged.bed
+│   │   ├── ECC-1_MAX_merged.bed
+│   │   ├── GM12878_MAX_merged.bed
+│   │   ├── HCT116_MAX_merged.bed
+│   │   ├── HELA_MAX_merged.bed
+│   │   ├── HEP-G2_MAX_merged.bed
+│   │   ├── HUVEC_MAX_merged.bed
+│   │   ├── ISHIKAWA_MAX_merged.bed
+│   │   ├── K-562_MAX_merged.bed
+│   │   ├── MCF-7_MAX_merged.bed
+│   │   ├── MDA-MB-231_MAX_merged.bed
+│   │   ├── MDA-MB-468_MAX_merged.bed
+│   │   ├── MKL-1_MAX_merged.bed
+│   │   ├── NB-4_MAX_merged.bed
+│   │   ├── NCI-H128_MAX_merged.bed
+│   │   ├── NCI-H2171_MAX_merged.bed
+│   │   ├── P493-6_MAX_merged.bed
+│   │   ├── SH-EP_MAX_merged.bed
+│   │   ├── SK-N-SH_MAX_merged.bed
+│   │   └── T-47D_MAX_merged.bed
+│   ├── output.tsv
+│   └── split
+│       ├── 22RV1_MAX_filtered.bed
+│       ├── A549_MAX_filtered.bed
+│       ├── ECC-1_MAX_filtered.bed
+│       ├── GM12878_MAX_filtered.bed
+│       ├── HCT116_MAX_filtered.bed
+│       ├── HELA_MAX_filtered.bed
+│       ├── HEP-G2_MAX_filtered.bed
+│       ├── HUVEC_MAX_filtered.bed
+│       ├── ISHIKAWA_MAX_filtered.bed
+│       ├── K-562_MAX_filtered.bed
+│       ├── MCF-7_MAX_filtered.bed
+│       ├── MDA-MB-231_MAX_filtered.bed
+│       ├── MDA-MB-468_MAX_filtered.bed
+│       ├── MKL-1_MAX_filtered.bed
+│       ├── NB-4_MAX_filtered.bed
+│       ├── NCI-H128_MAX_filtered.bed
+│       ├── NCI-H2171_MAX_filtered.bed
+│       ├── P493-6_MAX_filtered.bed
+│       ├── SH-EP_MAX_filtered.bed
+│       ├── SK-N-SH_MAX_filtered.bed
+│       └── T-47D_MAX_filtered.bed
+├── MYC
+│   ├── aggregate.tsv
+│   ├── filtered_output.tsv
+│   ├── merged
+│   │   ├── 22RV1_MYC_merged.bed
+│   │   ├── 293_MYC_merged.bed
+│   │   ├── 786-O_MYC_merged.bed
+│   │   ├── A549_MYC_merged.bed
+│   │   ├── BE(2)-C_MYC_merged.bed
+│   │   ├── BJ_MYC_merged.bed
+│   │   ├── BL-41_MYC_merged.bed
+│   │   ├── BLUE-1_MYC_merged.bed
+│   │   ├── BT-549_MYC_merged.bed
+│   │   ├── C4-2_MYC_merged.bed
+│   │   ├── CA46_MYC_merged.bed
+│   │   ├── D458_MYC_merged.bed
+│   │   ├── D54_MYC_merged.bed
+│   │   ├── DLD-1_MYC_merged.bed
+│   │   ├── DU145_MYC_merged.bed
+│   │   ├── ENDOC-H1_MYC_merged.bed
+│   │   ├── FB0167P_MYC_merged.bed
+│   │   ├── FB8470_MYC_merged.bed
+│   │   ├── G-401_MYC_merged.bed
+│   │   ├── GEN2.2_MYC_merged.bed
+│   │   ├── GM12878_MYC_merged.bed
+│   │   ├── GP5D_MYC_merged.bed
+│   │   ├── HAP1_MYC_merged.bed
+│   │   ├── HCT116_MYC_merged.bed
+│   │   ├── HELA_MYC_merged.bed
+│   │   ├── HEP-G2_MYC_merged.bed
+│   │   ├── HT-1080_MYC_merged.bed
+│   │   ├── HUVEC_MYC_merged.bed
+│   │   ├── ISHIKAWA_MYC_merged.bed
+│   │   ├── JURKAT_MYC_merged.bed
+│   │   ├── K-562_MYC_merged.bed
+│   │   ├── KELLY_MYC_merged.bed
+│   │   ├── KP4_MYC_merged.bed
+│   │   ├── LNCAP_MYC_merged.bed
+│   │   ├── LOVO_MYC_merged.bed
+│   │   ├── LS-174T_MYC_merged.bed
+│   │   ├── MCF-10A_MYC_merged.bed
+│   │   ├── MCF-7_MYC_merged.bed
+│   │   ├── MDA-MB-231_MYC_merged.bed
+│   │   ├── MDA-MB-468_MYC_merged.bed
+│   │   ├── MOLM-13_MYC_merged.bed
+│   │   ├── MRC-5_MYC_merged.bed
+│   │   ├── NALM-6_MYC_merged.bed
+│   │   ├── NB-4_MYC_merged.bed
+│   │   ├── NB69_MYC_merged.bed
+│   │   ├── NCI-H1048_MYC_merged.bed
+│   │   ├── NCI-H128_MYC_merged.bed
+│   │   ├── NCI-H211_MYC_merged.bed
+│   │   ├── NCI-H2171_MYC_merged.bed
+│   │   ├── NCI-H524_MYC_merged.bed
+│   │   ├── NCI-H847_MYC_merged.bed
+│   │   ├── NHEK_MYC_merged.bed
+│   │   ├── ONS-76_MYC_merged.bed
+│   │   ├── OPM-2_MYC_merged.bed
+│   │   ├── OVCAR-3_MYC_merged.bed
+│   │   ├── P493-6_MYC_merged.bed
+│   │   ├── PGCLC_MYC_merged.bed
+│   │   ├── RAJI_MYC_merged.bed
+│   │   ├── RAMOS_MYC_merged.bed
+│   │   ├── RMC-2C_MYC_merged.bed
+│   │   ├── SH-EP_MYC_merged.bed
+│   │   ├── SHP-77_MYC_merged.bed
+│   │   ├── SK-N-AS_MYC_merged.bed
+│   │   ├── SK-N-SH_MYC_merged.bed
+│   │   ├── SU-DHL-5_MYC_merged.bed
+│   │   ├── SUM-159PT_MYC_merged.bed
+│   │   ├── T-47D_MYC_merged.bed
+│   │   ├── U2OS_MYC_merged.bed
+│   │   └── UACC-812_MYC_merged.bed
+│   ├── output.tsv
+│   └── split
+│       ├── 22RV1_MYC_filtered.bed
+│       ├── 293_MYC_filtered.bed
+│       ├── 786-O_MYC_filtered.bed
+│       ├── A549_MYC_filtered.bed
+│       ├── BE(2)-C_MYC_filtered.bed
+│       ├── BJ_MYC_filtered.bed
+│       ├── BL-41_MYC_filtered.bed
+│       ├── BLUE-1_MYC_filtered.bed
+│       ├── BT-549_MYC_filtered.bed
+│       ├── C4-2_MYC_filtered.bed
+│       ├── CA46_MYC_filtered.bed
+│       ├── D458_MYC_filtered.bed
+│       ├── D54_MYC_filtered.bed
+│       ├── DLD-1_MYC_filtered.bed
+│       ├── DU145_MYC_filtered.bed
+│       ├── ENDOC-H1_MYC_filtered.bed
+│       ├── FB0167P_MYC_filtered.bed
+│       ├── FB8470_MYC_filtered.bed
+│       ├── G-401_MYC_filtered.bed
+│       ├── GEN2.2_MYC_filtered.bed
+│       ├── GM12878_MYC_filtered.bed
+│       ├── GP5D_MYC_filtered.bed
+│       ├── HAP1_MYC_filtered.bed
+│       ├── HCT116_MYC_filtered.bed
+│       ├── HELA_MYC_filtered.bed
+│       ├── HEP-G2_MYC_filtered.bed
+│       ├── HT-1080_MYC_filtered.bed
+│       ├── HUVEC_MYC_filtered.bed
+│       ├── ISHIKAWA_MYC_filtered.bed
+│       ├── JURKAT_MYC_filtered.bed
+│       ├── K-562_MYC_filtered.bed
+│       ├── KELLY_MYC_filtered.bed
+│       ├── KP4_MYC_filtered.bed
+│       ├── LNCAP_MYC_filtered.bed
+│       ├── LOVO_MYC_filtered.bed
+│       ├── LS-174T_MYC_filtered.bed
+│       ├── MCF-10A_MYC_filtered.bed
+│       ├── MCF-7_MYC_filtered.bed
+│       ├── MDA-MB-231_MYC_filtered.bed
+│       ├── MDA-MB-468_MYC_filtered.bed
+│       ├── MOLM-13_MYC_filtered.bed
+│       ├── MRC-5_MYC_filtered.bed
+│       ├── NALM-6_MYC_filtered.bed
+│       ├── NB-4_MYC_filtered.bed
+│       ├── NB69_MYC_filtered.bed
+│       ├── NCI-H1048_MYC_filtered.bed
+│       ├── NCI-H128_MYC_filtered.bed
+│       ├── NCI-H211_MYC_filtered.bed
+│       ├── NCI-H2171_MYC_filtered.bed
+│       ├── NCI-H524_MYC_filtered.bed
+│       ├── NCI-H847_MYC_filtered.bed
+│       ├── NHEK_MYC_filtered.bed
+│       ├── ONS-76_MYC_filtered.bed
+│       ├── OPM-2_MYC_filtered.bed
+│       ├── OVCAR-3_MYC_filtered.bed
+│       ├── P493-6_MYC_filtered.bed
+│       ├── PGCLC_MYC_filtered.bed
+│       ├── RAJI_MYC_filtered.bed
+│       ├── RAMOS_MYC_filtered.bed
+│       ├── RMC-2C_MYC_filtered.bed
+│       ├── SH-EP_MYC_filtered.bed
+│       ├── SHP-77_MYC_filtered.bed
+│       ├── SK-N-AS_MYC_filtered.bed
+│       ├── SK-N-SH_MYC_filtered.bed
+│       ├── SU-DHL-5_MYC_filtered.bed
+│       ├── SUM-159PT_MYC_filtered.bed
+│       ├── T-47D_MYC_filtered.bed
+│       ├── U2OS_MYC_filtered.bed
+│       └── UACC-812_MYC_filtered.bed
+├── NEUROD1
+│   ├── aggregate.tsv
+│   ├── filtered_output.tsv
+│   ├── merged
+│   │   ├── D283_NEUROD1_merged.bed
+│   │   ├── DMS53_NEUROD1_merged.bed
+│   │   ├── K-562_NEUROD1_merged.bed
+│   │   ├── MCF-7_NEUROD1_merged.bed
+│   │   ├── NCI-H446_NEUROD1_merged.bed
+│   │   ├── NCI-H524_NEUROD1_merged.bed
+│   │   └── NCI-H82_NEUROD1_merged.bed
+│   ├── output.tsv
+│   └── split
+│       ├── D283_NEUROD1_filtered.bed
+│       ├── DMS53_NEUROD1_filtered.bed
+│       ├── K-562_NEUROD1_filtered.bed
+│       ├── MCF-7_NEUROD1_filtered.bed
+│       ├── NCI-H446_NEUROD1_filtered.bed
+│       ├── NCI-H524_NEUROD1_filtered.bed
+│       └── NCI-H82_NEUROD1_filtered.bed
+├── NFKB
+│   ├── merged
+│   ├── output.tsv
+│   └── split
+├── NR3C1
+│   ├── aggregate.tsv
+│   ├── filtered_output.tsv
+│   ├── merged
+│   │   ├── 22RV1_NR3C1_merged.bed
+│   │   ├── 293_NR3C1_merged.bed
+│   │   ├── 697_NR3C1_merged.bed
+│   │   ├── A549_NR3C1_merged.bed
+│   │   ├── BEAS-2B_NR3C1_merged.bed
+│   │   ├── ECC-1_NR3C1_merged.bed
+│   │   ├── HASM2_NR3C1_merged.bed
+│   │   ├── HELA_NR3C1_merged.bed
+│   │   ├── HEP-G2_NR3C1_merged.bed
+│   │   ├── HT-29_NR3C1_merged.bed
+│   │   ├── K-562_NR3C1_merged.bed
+│   │   ├── LNCAP_NR3C1_merged.bed
+│   │   ├── LREX_NR3C1_merged.bed
+│   │   ├── MCF-10A_NR3C1_merged.bed
+│   │   ├── MCF-7_NR3C1_merged.bed
+│   │   ├── MDA-MB-231_NR3C1_merged.bed
+│   │   ├── MM1.RL_NR3C1_merged.bed
+│   │   ├── MM.1S_NR3C1_merged.bed
+│   │   ├── NALM-6_NR3C1_merged.bed
+│   │   ├── NCI-H441_NR3C1_merged.bed
+│   │   ├── RS4-11_NR3C1_merged.bed
+│   │   ├── SUP-B15_NR3C1_merged.bed
+│   │   ├── T-47D_NR3C1_merged.bed
+│   │   ├── THP-1_NR3C1_merged.bed
+│   │   ├── U2OS_NR3C1_merged.bed
+│   │   └── VCAP_NR3C1_merged.bed
+│   ├── output.tsv
+│   └── split
+│       ├── 22RV1_NR3C1_filtered.bed
+│       ├── 293_NR3C1_filtered.bed
+│       ├── 697_NR3C1_filtered.bed
+│       ├── A549_NR3C1_filtered.bed
+│       ├── BEAS-2B_NR3C1_filtered.bed
+│       ├── ECC-1_NR3C1_filtered.bed
+│       ├── HASM2_NR3C1_filtered.bed
+│       ├── HELA_NR3C1_filtered.bed
+│       ├── HEP-G2_NR3C1_filtered.bed
+│       ├── HT-29_NR3C1_filtered.bed
+│       ├── K-562_NR3C1_filtered.bed
+│       ├── LNCAP_NR3C1_filtered.bed
+│       ├── LREX_NR3C1_filtered.bed
+│       ├── MCF-10A_NR3C1_filtered.bed
+│       ├── MCF-7_NR3C1_filtered.bed
+│       ├── MDA-MB-231_NR3C1_filtered.bed
+│       ├── MM1.RL_NR3C1_filtered.bed
+│       ├── MM.1S_NR3C1_filtered.bed
+│       ├── NALM-6_NR3C1_filtered.bed
+│       ├── NCI-H441_NR3C1_filtered.bed
+│       ├── RS4-11_NR3C1_filtered.bed
+│       ├── SUP-B15_NR3C1_filtered.bed
+│       ├── T-47D_NR3C1_filtered.bed
+│       ├── THP-1_NR3C1_filtered.bed
+│       ├── U2OS_NR3C1_filtered.bed
+│       └── VCAP_NR3C1_filtered.bed
+├── ONECUT2
+│   ├── aggregate.tsv
+│   ├── filtered_output.tsv
+│   ├── merged
+│   │   ├── 22RV1_ONECUT2_merged.bed
+│   │   ├── AGS_ONECUT2_merged.bed
+│   │   ├── HEP-G2_ONECUT2_merged.bed
+│   │   ├── LNCAP_ONECUT2_merged.bed
+│   │   └── MKN-74_ONECUT2_merged.bed
+│   ├── output.tsv
+│   └── split
+│       ├── 22RV1_ONECUT2_filtered.bed
+│       ├── AGS_ONECUT2_filtered.bed
+│       ├── HEP-G2_ONECUT2_filtered.bed
+│       ├── LNCAP_ONECUT2_filtered.bed
+│       └── MKN-74_ONECUT2_filtered.bed
+├── POU2F1
+│   ├── aggregate.tsv
+│   ├── filtered_output.tsv
+│   ├── merged
+│   │   ├── 22RV1_POU2F1_merged.bed
+│   │   ├── DLBCL_POU2F1_merged.bed
+│   │   ├── HCT116_POU2F1_merged.bed
+│   │   ├── HELA_POU2F1_merged.bed
+│   │   ├── LNCAP_POU2F1_merged.bed
+│   │   ├── MCF10CA1A_POU2F1_merged.bed
+│   │   └── VCAP_POU2F1_merged.bed
+│   ├── output.tsv
+│   └── split
+│       ├── 22RV1_POU2F1_filtered.bed
+│       ├── DLBCL_POU2F1_filtered.bed
+│       ├── HCT116_POU2F1_filtered.bed
+│       ├── HELA_POU2F1_filtered.bed
+│       ├── LNCAP_POU2F1_filtered.bed
+│       ├── MCF10CA1A_POU2F1_filtered.bed
+│       └── VCAP_POU2F1_filtered.bed
+├── POU5F1
+│   ├── aggregate.tsv
+│   ├── filtered_output.tsv
+│   ├── merged
+│   │   ├── 22RV1_POU5F1_merged.bed
+│   │   ├── BJ_POU5F1_merged.bed
+│   │   ├── DU145_POU5F1_merged.bed
+│   │   ├── K-562_POU5F1_merged.bed
+│   │   ├── LNCAP_POU5F1_merged.bed
+│   │   ├── MRC-5_POU5F1_merged.bed
+│   │   └── NCCIT_POU5F1_merged.bed
+│   ├── output.tsv
+│   └── split
+│       ├── 22RV1_POU5F1_filtered.bed
+│       ├── BJ_POU5F1_filtered.bed
+│       ├── DU145_POU5F1_filtered.bed
+│       ├── K-562_POU5F1_filtered.bed
+│       ├── LNCAP_POU5F1_filtered.bed
+│       ├── MRC-5_POU5F1_filtered.bed
+│       └── NCCIT_POU5F1_filtered.bed
+├── RB1
+│   ├── aggregate.tsv
+│   ├── filtered_output.tsv
+│   ├── merged
+│   │   ├── C4-2_RB1_merged.bed
+│   │   ├── ENDOC-BETAH3_RB1_merged.bed
+│   │   ├── GM12878_RB1_merged.bed
+│   │   ├── HELA_RB1_merged.bed
+│   │   ├── IMR-90_RB1_merged.bed
+│   │   ├── K-562_RB1_merged.bed
+│   │   └── VCAP_RB1_merged.bed
+│   ├── output.tsv
+│   └── split
+│       ├── C4-2_RB1_filtered.bed
+│       ├── ENDOC-BETAH3_RB1_filtered.bed
+│       ├── GM12878_RB1_filtered.bed
+│       ├── HELA_RB1_filtered.bed
+│       ├── IMR-90_RB1_filtered.bed
+│       ├── K-562_RB1_filtered.bed
+│       └── VCAP_RB1_filtered.bed
+├── REST
+│   ├── aggregate.tsv
+│   ├── filtered_output.tsv
+│   ├── merged
+│   │   ├── 293_REST_merged.bed
+│   │   ├── A549_REST_merged.bed
+│   │   ├── ECC-1_REST_merged.bed
+│   │   ├── GM12878_REST_merged.bed
+│   │   ├── GP5D_REST_merged.bed
+│   │   ├── HCT116_REST_merged.bed
+│   │   ├── HEC-1-B_REST_merged.bed
+│   │   ├── HELA_REST_merged.bed
+│   │   ├── HEP-G2_REST_merged.bed
+│   │   ├── HL-60_REST_merged.bed
+│   │   ├── JURKAT_REST_merged.bed
+│   │   ├── K-562_REST_merged.bed
+│   │   ├── LNCAP_REST_merged.bed
+│   │   ├── LOVO_REST_merged.bed
+│   │   ├── MCF-7_REST_merged.bed
+│   │   ├── NCI-H295R_REST_merged.bed
+│   │   ├── PANC-1_REST_merged.bed
+│   │   ├── PFSK-1_REST_merged.bed
+│   │   └── SK-N-SH_REST_merged.bed
+│   ├── output.tsv
+│   └── split
+│       ├── 293_REST_filtered.bed
+│       ├── A549_REST_filtered.bed
+│       ├── ECC-1_REST_filtered.bed
+│       ├── GM12878_REST_filtered.bed
+│       ├── GP5D_REST_filtered.bed
+│       ├── HCT116_REST_filtered.bed
+│       ├── HEC-1-B_REST_filtered.bed
+│       ├── HELA_REST_filtered.bed
+│       ├── HEP-G2_REST_filtered.bed
+│       ├── HL-60_REST_filtered.bed
+│       ├── JURKAT_REST_filtered.bed
+│       ├── K-562_REST_filtered.bed
+│       ├── LNCAP_REST_filtered.bed
+│       ├── LOVO_REST_filtered.bed
+│       ├── MCF-7_REST_filtered.bed
+│       ├── NCI-H295R_REST_filtered.bed
+│       ├── PANC-1_REST_filtered.bed
+│       ├── PFSK-1_REST_filtered.bed
+│       └── SK-N-SH_REST_filtered.bed
+├── SOX2
+│   ├── aggregate.tsv
+│   ├── filtered_output.tsv
+│   ├── merged
+│   │   ├── BJ_SOX2_merged.bed
+│   │   ├── H29_SOX2_merged.bed
+│   │   ├── HCC2814_SOX2_merged.bed
+│   │   ├── HCC95_SOX2_merged.bed
+│   │   ├── KNS-62_SOX2_merged.bed
+│   │   ├── KYSE-140_SOX2_merged.bed
+│   │   ├── KYSE-70_SOX2_merged.bed
+│   │   ├── LK-2_SOX2_merged.bed
+│   │   ├── LN-229_SOX2_merged.bed
+│   │   ├── LOVO_SOX2_merged.bed
+│   │   ├── MDA-MB-231_SOX2_merged.bed
+│   │   ├── MRC-5_SOX2_merged.bed
+│   │   ├── N2102EP_SOX2_merged.bed
+│   │   ├── NCI-H1836_SOX2_merged.bed
+│   │   ├── NCI-H520_SOX2_merged.bed
+│   │   ├── NCI-H82_SOX2_merged.bed
+│   │   ├── TE-5_SOX2_merged.bed
+│   │   └── T.T_SOX2_merged.bed
+│   ├── output.tsv
+│   └── split
+│       ├── BJ_SOX2_filtered.bed
+│       ├── H29_SOX2_filtered.bed
+│       ├── HCC2814_SOX2_filtered.bed
+│       ├── HCC95_SOX2_filtered.bed
+│       ├── KNS-62_SOX2_filtered.bed
+│       ├── KYSE-140_SOX2_filtered.bed
+│       ├── KYSE-70_SOX2_filtered.bed
+│       ├── LK-2_SOX2_filtered.bed
+│       ├── LN-229_SOX2_filtered.bed
+│       ├── LOVO_SOX2_filtered.bed
+│       ├── MDA-MB-231_SOX2_filtered.bed
+│       ├── MRC-5_SOX2_filtered.bed
+│       ├── N2102EP_SOX2_filtered.bed
+│       ├── NCI-H1836_SOX2_filtered.bed
+│       ├── NCI-H520_SOX2_filtered.bed
+│       ├── NCI-H82_SOX2_filtered.bed
+│       ├── TE-5_SOX2_filtered.bed
+│       └── T.T_SOX2_filtered.bed
+├── TAZ
+│   ├── aggregate.tsv
+│   ├── filtered_output.tsv
+│   ├── merged
+│   │   ├── DU145_TAZ_merged.bed
+│   │   ├── HUVEC_TAZ_merged.bed
+│   │   ├── MSK-PCA3_TAZ_merged.bed
+│   │   ├── NCI-H1299_TAZ_merged.bed
+│   │   └── SW480_TAZ_merged.bed
+│   ├── output.tsv
+│   └── split
+│       ├── DU145_TAZ_filtered.bed
+│       ├── HUVEC_TAZ_filtered.bed
+│       ├── MSK-PCA3_TAZ_filtered.bed
+│       ├── NCI-H1299_TAZ_filtered.bed
+│       └── SW480_TAZ_filtered.bed
+├── TEAD1
+│   ├── aggregate.tsv
+│   ├── filtered_output.tsv
+│   ├── merged
+│   │   ├── 786-O_TEAD1_merged.bed
+│   │   ├── C4-2_TEAD1_merged.bed
+│   │   ├── CC-LP-1_TEAD1_merged.bed
+│   │   ├── DU145_TEAD1_merged.bed
+│   │   ├── HCT116_TEAD1_merged.bed
+│   │   ├── HEP-G2_TEAD1_merged.bed
+│   │   ├── HUCCT1_TEAD1_merged.bed
+│   │   ├── HUVEC_TEAD1_merged.bed
+│   │   ├── K-562_TEAD1_merged.bed
+│   │   ├── LMSU_TEAD1_merged.bed
+│   │   ├── MCF-10A_TEAD1_merged.bed
+│   │   ├── MCF-7_TEAD1_merged.bed
+│   │   ├── MDA-MB-231_TEAD1_merged.bed
+│   │   ├── MSK-PCA3_TEAD1_merged.bed
+│   │   ├── MSTO-211H_TEAD1_merged.bed
+│   │   ├── NCI-H69_TEAD1_merged.bed
+│   │   ├── SF268_TEAD1_merged.bed
+│   │   ├── SNU-1750_TEAD1_merged.bed
+│   │   ├── T-47D_TEAD1_merged.bed
+│   │   └── YCC-11_TEAD1_merged.bed
+│   ├── output.tsv
+│   └── split
+│       ├── 786-O_TEAD1_filtered.bed
+│       ├── C4-2_TEAD1_filtered.bed
+│       ├── CC-LP-1_TEAD1_filtered.bed
+│       ├── DU145_TEAD1_filtered.bed
+│       ├── HCT116_TEAD1_filtered.bed
+│       ├── HEP-G2_TEAD1_filtered.bed
+│       ├── HUCCT1_TEAD1_filtered.bed
+│       ├── HUVEC_TEAD1_filtered.bed
+│       ├── K-562_TEAD1_filtered.bed
+│       ├── LMSU_TEAD1_filtered.bed
+│       ├── MCF-10A_TEAD1_filtered.bed
+│       ├── MCF-7_TEAD1_filtered.bed
+│       ├── MDA-MB-231_TEAD1_filtered.bed
+│       ├── MSK-PCA3_TEAD1_filtered.bed
+│       ├── MSTO-211H_TEAD1_filtered.bed
+│       ├── NCI-H69_TEAD1_filtered.bed
+│       ├── SF268_TEAD1_filtered.bed
+│       ├── SNU-1750_TEAD1_filtered.bed
+│       ├── T-47D_TEAD1_filtered.bed
+│       └── YCC-11_TEAD1_filtered.bed
+├── TEAD4
+│   ├── aggregate.tsv
+│   ├── filtered_output.tsv
+│   ├── merged
+│   │   ├── A549_TEAD4_merged.bed
+│   │   ├── ECC-1_TEAD4_merged.bed
+│   │   ├── FULVR_TEAD4_merged.bed
+│   │   ├── HCT116_TEAD4_merged.bed
+│   │   ├── HEP-G2_TEAD4_merged.bed
+│   │   ├── HGC-27_TEAD4_merged.bed
+│   │   ├── HUCCT1_TEAD4_merged.bed
+│   │   ├── K-562_TEAD4_merged.bed
+│   │   ├── LOVO_TEAD4_merged.bed
+│   │   ├── MCF-10A_TEAD4_merged.bed
+│   │   ├── MCF-7_TEAD4_merged.bed
+│   │   ├── MDA-MB-231_TEAD4_merged.bed
+│   │   ├── MKN-28_TEAD4_merged.bed
+│   │   ├── NCI-H209_TEAD4_merged.bed
+│   │   ├── NCI-H2171_TEAD4_merged.bed
+│   │   ├── OVCAR-8_TEAD4_merged.bed
+│   │   ├── PC-9_TEAD4_merged.bed
+│   │   ├── SK-MEL-147_TEAD4_merged.bed
+│   │   ├── SK-N-BE(2)_TEAD4_merged.bed
+│   │   ├── SK-N-SH_TEAD4_merged.bed
+│   │   ├── SNU-216_TEAD4_merged.bed
+│   │   ├── T-47D_TEAD4_merged.bed
+│   │   ├── WERI-RB-1_TEAD4_merged.bed
+│   │   └── Y79_TEAD4_merged.bed
+│   ├── output.tsv
+│   └── split
+│       ├── A549_TEAD4_filtered.bed
+│       ├── ECC-1_TEAD4_filtered.bed
+│       ├── FULVR_TEAD4_filtered.bed
+│       ├── HCT116_TEAD4_filtered.bed
+│       ├── HEP-G2_TEAD4_filtered.bed
+│       ├── HGC-27_TEAD4_filtered.bed
+│       ├── HUCCT1_TEAD4_filtered.bed
+│       ├── K-562_TEAD4_filtered.bed
+│       ├── LOVO_TEAD4_filtered.bed
+│       ├── MCF-10A_TEAD4_filtered.bed
+│       ├── MCF-7_TEAD4_filtered.bed
+│       ├── MDA-MB-231_TEAD4_filtered.bed
+│       ├── MKN-28_TEAD4_filtered.bed
+│       ├── NCI-H209_TEAD4_filtered.bed
+│       ├── NCI-H2171_TEAD4_filtered.bed
+│       ├── OVCAR-8_TEAD4_filtered.bed
+│       ├── PC-9_TEAD4_filtered.bed
+│       ├── SK-MEL-147_TEAD4_filtered.bed
+│       ├── SK-N-BE(2)_TEAD4_filtered.bed
+│       ├── SK-N-SH_TEAD4_filtered.bed
+│       ├── SNU-216_TEAD4_filtered.bed
+│       ├── T-47D_TEAD4_filtered.bed
+│       ├── WERI-RB-1_TEAD4_filtered.bed
+│       └── Y79_TEAD4_filtered.bed
+├── YAP1
+│   ├── aggregate.tsv
+│   ├── filtered_output.tsv
+│   ├── merged
+│   │   ├── BEL-7402_YAP1_merged.bed
+│   │   ├── CAL-120_YAP1_merged.bed
+│   │   ├── CC-LP-1_YAP1_merged.bed
+│   │   ├── DU145_YAP1_merged.bed
+│   │   ├── H2052_YAP1_merged.bed
+│   │   ├── HBMEC_YAP1_merged.bed
+│   │   ├── HGC-27_YAP1_merged.bed
+│   │   ├── HUCCT1_YAP1_merged.bed
+│   │   ├── HUVEC_YAP1_merged.bed
+│   │   ├── IMR-90_YAP1_merged.bed
+│   │   ├── MCF_10A_YAP1_merged.bed
+│   │   ├── MCF-7_YAP1_merged.bed
+│   │   ├── MDA-MB-231_YAP1_merged.bed
+│   │   ├── MSK-PCA3_YAP1_merged.bed
+│   │   ├── MSTO-211H_YAP1_merged.bed
+│   │   ├── NCI-H1299_YAP1_merged.bed
+│   │   ├── NCI-H69_YAP1_merged.bed
+│   │   ├── OVCAR-5_YAP1_merged.bed
+│   │   ├── PC-9_YAP1_merged.bed
+│   │   ├── SF268_YAP1_merged.bed
+│   │   └── T-47D_YAP1_merged.bed
+│   ├── output.tsv
+│   └── split
+│       ├── BEL-7402_YAP1_filtered.bed
+│       ├── CAL-120_YAP1_filtered.bed
+│       ├── CC-LP-1_YAP1_filtered.bed
+│       ├── DU145_YAP1_filtered.bed
+│       ├── H2052_YAP1_filtered.bed
+│       ├── HBMEC_YAP1_filtered.bed
+│       ├── HGC-27_YAP1_filtered.bed
+│       ├── HUCCT1_YAP1_filtered.bed
+│       ├── HUVEC_YAP1_filtered.bed
+│       ├── IMR-90_YAP1_filtered.bed
+│       ├── MCF_10A_YAP1_filtered.bed
+│       ├── MCF-7_YAP1_filtered.bed
+│       ├── MDA-MB-231_YAP1_filtered.bed
+│       ├── MSK-PCA3_YAP1_filtered.bed
+│       ├── MSTO-211H_YAP1_filtered.bed
+│       ├── NCI-H1299_YAP1_filtered.bed
+│       ├── NCI-H69_YAP1_filtered.bed
+│       ├── OVCAR-5_YAP1_filtered.bed
+│       ├── PC-9_YAP1_filtered.bed
+│       ├── SF268_YAP1_filtered.bed
+│       └── T-47D_YAP1_filtered.bed
+└── YY1
+    ├── aggregate.tsv
+    ├── filtered_output.tsv
+    ├── merged
+    │   ├── 293_YY1_merged.bed
+    │   ├── A549_YY1_merged.bed
+    │   ├── ACHN_YY1_merged.bed
+    │   ├── DND-41_YY1_merged.bed
+    │   ├── ECC-1_YY1_merged.bed
+    │   ├── GM12878_YY1_merged.bed
+    │   ├── GM12891_YY1_merged.bed
+    │   ├── GM12892_YY1_merged.bed
+    │   ├── GSC23_YY1_merged.bed
+    │   ├── HCT116_YY1_merged.bed
+    │   ├── HELA_YY1_merged.bed
+    │   ├── HEP-G2_YY1_merged.bed
+    │   ├── HK-2_YY1_merged.bed
+    │   ├── HUH-7_YY1_merged.bed
+    │   ├── JURKAT_YY1_merged.bed
+    │   ├── K-562_YY1_merged.bed
+    │   ├── LNCAP_YY1_merged.bed
+    │   ├── NCCIT_YY1_merged.bed
+    │   ├── NT2-D1_YY1_merged.bed
+    │   ├── RAMOS_YY1_merged.bed
+    │   ├── SH-SY5Y_YY1_merged.bed
+    │   ├── SK-N-SH_YY1_merged.bed
+    │   ├── T-ALL_YY1_merged.bed
+    │   ├── THP-1_YY1_merged.bed
+    │   └── U2OS_YY1_merged.bed
+    ├── output.tsv
+    └── split
+        ├── 293_YY1_filtered.bed
+        ├── A549_YY1_filtered.bed
+        ├── ACHN_YY1_filtered.bed
+        ├── DND-41_YY1_filtered.bed
+        ├── ECC-1_YY1_filtered.bed
+        ├── GM12878_YY1_filtered.bed
+        ├── GM12891_YY1_filtered.bed
+        ├── GM12892_YY1_filtered.bed
+        ├── GSC23_YY1_filtered.bed
+        ├── HCT116_YY1_filtered.bed
+        ├── HELA_YY1_filtered.bed
+        ├── HEP-G2_YY1_filtered.bed
+        ├── HK-2_YY1_filtered.bed
+        ├── HUH-7_YY1_filtered.bed
+        ├── JURKAT_YY1_filtered.bed
+        ├── K-562_YY1_filtered.bed
+        ├── LNCAP_YY1_filtered.bed
+        ├── NCCIT_YY1_filtered.bed
+        ├── NT2-D1_YY1_filtered.bed
+        ├── RAMOS_YY1_filtered.bed
+        ├── SH-SY5Y_YY1_filtered.bed
+        ├── SK-N-SH_YY1_filtered.bed
+        ├── T-ALL_YY1_filtered.bed
+        ├── THP-1_YY1_filtered.bed
+        └── U2OS_YY1_filtered.bed
+
+115 directories, 1681 files

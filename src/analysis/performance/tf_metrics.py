@@ -391,3 +391,4 @@ def plot_tf_metrics_detailed(metrics_df: pl.DataFrame, save_path: Optional[str] 
         plt.savefig(save_path, dpi=300, bbox_inches='tight')
     
     plt.show() 
+    
