@@ -2,6 +2,7 @@
 **/metadata
 **/*.out
 **/*.csv
+**/.vscode
 **/.claude
 **/logs
 **/motifs
@@ -18,3 +19,4 @@
 /repo_cleanup.md
 /marginalization_naive.py
 **/*.bed
+src/analysis/interpretability/src/tangermeme_mm
