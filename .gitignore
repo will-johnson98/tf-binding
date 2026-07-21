@@ -14,9 +14,12 @@
 **/*.tar.gz
 /.20260602_src_backup
 /src/analysis/interpretability/.20260714_hpcScripts_backup
-/src/preprocessing/chip/qsub_scripts
+**/.DS_Store
+repo_cleanup.md
+deprecated_scripts.md
+**/__*
+**/._*
 /src/analysis/interpretability/attr_analyses_output
-/repo_cleanup.md
 /marginalization_naive.py
 **/*.bed
 src/analysis/interpretability/src/tangermeme_mm

@@ -1,0 +1,61 @@
+name: lean_pterodactyl
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  # --- Python + core numeric ---
+  - python=3.12            # fallback 3.10 if solve/import fails (see Verification)
+  - pip
+  - numpy=1.26             # <2 keeps numba 0.60 / torch 2.5 happy
+  - scipy
+  - pandas
+  - polars
+  - pyarrow
+  - scikit-learn
+  - numba                  # fork dep; conda binary preferred over pip on CentOS 7
+  - joblib                 # fork dep
+  - orjson
+  - tqdm
+  - umap-learn             # live import, missing from old env
+  # --- plotting & interactivity ---
+  - matplotlib
+  - seaborn
+  - ipykernel
+  - ipywidgets
+  # --- genomics ---
+  - pysam
+  - pyfaidx
+  - bedtools               # bioconda; run_bedtools_command()
+  - pybigtools
+  # --- external CLI tools this env shells out to ---
+  - parallel               # GNU parallel (tf_inference.sh --parallel)
+  - jq
+  - pigz
+  # --- Full R stack (tidyverse + Bioconductor + shiny) ---
+  - r-base
+  - r-tidyverse
+  - r-optparse
+  - r-data.table
+  - r-plotly
+  - r-dt
+  - r-shiny
+  - r-bslib
+  - r-scales
+  - r-viridislite
+  - r-matrixstats
+  - r-circlize
+  - r-arrow
+  - bioconductor-biostrings
+  - bioconductor-genomicranges
+  - bioconductor-complexheatmap
+  - bioconductor-interactivecomplexheatmap
+  # --- pip: ML stack + patched tangermeme ---
+  - pip:
+      - torch==2.5.0            # manylinux wheel bundles CUDA 12 (works on CentOS 7)
+      - transformers==4.46.1
+      - einops==0.8.0
+      - enformer-pytorch==0.8.10   # pulls its own transitive deps
+      - captum==0.7.0
+      - boto3==1.35.47
+      - sagemaker==2.232.2         # pulls boto3/mlflow-adjacent deps as needed
+      - -e ./src/analysis/interpretability/src/tangermeme_mm   # installs importable `tangermeme`
