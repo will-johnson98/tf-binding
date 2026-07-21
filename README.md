@@ -161,3 +161,120 @@ flowchart TD
 
 ---
 *Note: `src/training/pretraining.py:99` references an undefined `distribution` variable — that orchestrator would raise `NameError` as written; the working distributed logic lives in `tf_prediction.py`'s runtime detection.*
+
+```mermaid
+flowchart TB
+    classDef script fill:#dbeafe,stroke:#1e3a8a,stroke-width:2px,color:#0b1d51;
+    classDef legacy fill:#fee2e2,stroke:#991b1b,stroke-width:2px,stroke-dasharray:5 4,color:#450a0a;
+
+    subgraph PRE["1 · Preprocessing"]
+      direction TB
+      pull(["atac/pull_down.sh"]):::script
+      callp(["atac/call_peaks.sh"]):::script
+      subj(["atac/submit_jobs.sh"]):::script
+      proccl(["atac/process_cell_line.sh + processing/*.R + preprocessing.sh"]):::script
+      genmeta(["atac/generate_metadata.py"]):::script
+      proctf(["chip/process_tfs_qsub.py"]):::script
+      qsub(["chip/qsub_scripts/*.sh — 40 per-TF + submit_all"]):::script
+      aggexp(["chip/aggregate_experiments.py"]):::script
+      basictf(["chip/basic_tf.sh"]):::script
+      gentrain(["utils/generate_training_peaks.py"]):::script
+      genpre(["utils/generate_pretraining_peaks.py"]):::script
+      pull --> callp --> subj
+      proctf --> qsub --> gentrain
+    end
+
+    subgraph TRN["2 · Training"]
+      direction TB
+      ptdir(["pretraining/pretrain.py  (+ deepseq, training_utils, earlystopping, data)"]):::script
+      ptfile(["pretraining.py  — DEAD launcher (NameError)"]):::legacy
+      ptcfg(["pretraining/config.py  — DEAD (never imported)"]):::legacy
+      ftlaunch(["tf_finetuning.py  (launcher)"]):::script
+      ftpred(["tf_finetuning/tf_prediction.py"]):::script
+      ftload(["tf_finetuning/tf_dataloader.py  (+ deepseq, earlystopping)"]):::script
+      ftcfg(["tf_finetuning/config.py  — DEAD (never imported)"]):::legacy
+      ftutil(["tf_finetuning/training_utils.py  — DEAD (never imported)"]):::legacy
+      contr(["contrasting.py"]):::script
+      ftlaunch --> ftpred --> ftload
+    end
+
+    subgraph INF["3 · Inference"]
+      direction TB
+      tfinf(["tf_inference.sh"]):::script
+      infpy(["scripts/inference.py  (+ dataloader, deepseq)"]):::script
+      awsinf(["aws_inference.py"]):::script
+      prepdata(["prepare_data.py"]):::script
+      contrinf(["contrasting_inference.py"]):::script
+      deeplift(["scripts/deeplift.py  — DEAD (unimportable)"]):::legacy
+      tfinf --> infpy
+    end
+
+    subgraph PERF["4a · Analysis — performance"]
+      direction TB
+      runtf(["run_tf_analysis.py"]):::script
+      tfmet(["tf_metrics.py"]):::script
+      clutil(["cell_line_utils.py"]):::script
+      reproc(["reprocess.py + run_reprocess_sge.sh"]):::script
+    end
+
+    subgraph INTP["4b · Analysis — interpretability"]
+      direction TB
+      base(["utils/base.py"]):::script
+      callseq(["call_seqlets.py  (main)"]):::script
+      lev(["levenshtein.py"]):::script
+      ph(["posthoc.R"]):::script
+      attrmat(["attr_matrices.py"]):::script
+      sw(["seqlet_wrangling.R"]):::script
+      p2c(["utils/parquet_to_csv_gz.py + find_samples.sh"]):::script
+      interp(["utils/interpretability.py  — LEGACY"]):::legacy
+      pwa(["utils/plot_with_atac.py  — LEGACY"]):::legacy
+      base --> callseq
+      callseq -. shells out .-> lev
+      callseq -. shells out .-> ph
+    end
+
+    subgraph APH["4c · attr_posthoc_analyses (live)"]
+      direction TB
+      runph(["run_attr_posthoc_analyses.sh"]):::script
+      c1(["corr1_atac_attr_correlations.py"]):::script
+      c2(["corr2_finegrain_corrs.py"]):::script
+      hm(["heatmaps1_genome_heatmaps.R"]):::script
+      hmapp(["heatmaps1a_app.R"]):::script
+      ov1(["overlap1_binding_overlap_analysis.R"]):::script
+      ov2(["overlap2_binding_overlap_plots.R"]):::script
+      hm --> hmapp
+      ov1 --> ov2
+    end
+
+    subgraph HPCBK["·20260714_hpcScripts_backup — LEGACY (pre-rename copy)"]
+      direction TB
+      bk0(["0_attr_matrices.py"]):::legacy
+      bkc1(["corr1_atac_attr_correlations.py"]):::legacy
+      bkc2(["corr2_finegrain_corrs.py"]):::legacy
+      bkoc2(["old_corr2_positional_correlation.py"]):::legacy
+      bkhm(["heatmaps1_genome_heatmaps.R + heatmaps1a_app.R"]):::legacy
+      bkov(["overlap1 + overlap2 .R"]):::legacy
+    end
+
+    subgraph ROOT["5 · Root / standalone"]
+      direction TB
+      marg(["marginalization_naive.py  — LIVE"]):::script
+      tut(["Tutorial_B1_Marginalization.ipynb"]):::script
+      tutkd(["Tutorial_B1_Marginalization_kd.ipynb  — legacy fork"]):::legacy
+      cust(["custom_substitute.ipynb  — partial patch source / scratch"]):::legacy
+      play(["playground notebooks (loading_model, pwm, seqlet, corr2)"]):::legacy
+    end
+
+    tst(["utils/test_generate_training_peaks.py  — BROKEN test"]):::legacy
+
+    genpre --> ptdir
+    ftpred --> tfinf
+    INF --> PERF
+    infpy --> base
+    attrmat --> runph
+    ptfile -. replaced by .-> ptdir
+    interp -. superseded by .-> callseq
+    pwa -. superseded by .-> callseq
+    HPCBK -. superseded by .-> APH
+    
+```
